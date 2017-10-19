@@ -1,0 +1,424 @@
+[ 2017-10-19T11:36:44+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `lt_tag` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `lt_article` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `lt_link` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `lt_version` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `lt_album` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `lt_article_c` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `lt_album_c` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `lt_say` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `lt_say_c` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `lt_gust` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `lt_system` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `lt_picture` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `lt_tag` WHERE `t_view` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `a_id`,`a_keyword`,`a_show` FROM `lt_article` WHERE ( a_keyword != '' and a_show > 0 ) ORDER BY a_time desc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `lt_system` SET `hit`=hit+1 WHERE ( id=1 ) [ RunTime:0.0032s ]
+SQL: SELECT `a_id` FROM `lt_article` WHERE ( a_show != 0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 9 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lt_link` WHERE `l_show` = 1  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_say_c` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_article_c` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_album_c` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_say` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_article` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_gust` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_album` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_picture` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_link` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_version` WHERE `v_show` = 1 ORDER BY v_id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `a_id` FROM `lt_article` WHERE ( a_show > 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 7 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_album` WHERE ( al_show = 1 ) ORDER BY al_time desc LIMIT 9   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lt_article_c` [ RunTime:0.0025s ]
+SQL: SELECT `ac_time` FROM `lt_article_c` UNION ALL SELECT sc_time FROM lt_say_c UNION ALL SELECT alc_time FROM lt_album_c ORDER BY ac_time desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1507711783 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1507711783 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1507711783 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1507622174 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1507622174 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1507622174 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1507622134 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1507622134 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1507622134 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1507621967 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1507621967 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1507621967 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1507621902 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1507621902 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1507621902 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_gust` ORDER BY g_time desc LIMIT 5   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_article` ORDER BY a_hit desc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lt_ppt` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `lt_ppt` ORDER BY pp_time desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_article` INNER JOIN lt_tag ON lt_tag.t_id = lt_article.pid  WHERE ( a_show > 0 ) ORDER BY a_time desc LIMIT 0,6   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+NOTIC: [8] Undefined variable: about E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 50 行.
+NOTIC: [8] Undefined variable: class E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 51 行.
+NOTIC: [8] Undefined variable: feel E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 58 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 59 行.
+NOTIC: [8] Undefined variable: gust E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 61 行.
+NOTIC: [8] Undefined index: l_name E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 219 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2017-10-19T11:37:20+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '/' found E:\youthBlog\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+
+[ 2017-10-19T12:00:27+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '/' found E:\youthBlog\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+ERR: 无法加载控制器:Login
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\youthBlog\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\youthBlog\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2017-10-19T12:00:27+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '/' found E:\youthBlog\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+
+[ 2017-10-19T12:16:45+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `lt_tag` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `lt_article` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_link` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `lt_version` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `lt_album` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `lt_article_c` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `lt_album_c` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_say` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `lt_say_c` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_gust` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `lt_system` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_picture` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `lt_tag` WHERE `t_view` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `a_id`,`a_keyword`,`a_show` FROM `lt_article` WHERE ( a_keyword != '' and a_show > 0 ) ORDER BY a_time desc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_system` LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `lt_system` SET `hit`=hit+1 WHERE ( id=1 ) [ RunTime:0.0117s ]
+SQL: SELECT `a_id` FROM `lt_article` WHERE ( a_show != 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 7 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_link` WHERE `l_show` = 1  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_say_c` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_article_c` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_album_c` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_say` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_article` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_gust` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_album` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_picture` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_link` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_version` WHERE `v_show` = 1 ORDER BY v_id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `a_id` FROM `lt_article` WHERE ( a_show > 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 7 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_album` WHERE ( al_show = 1 ) ORDER BY al_time desc LIMIT 9   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `lt_article_c` [ RunTime:0.0027s ]
+SQL: SELECT `ac_time` FROM `lt_article_c` UNION ALL SELECT sc_time FROM lt_say_c UNION ALL SELECT alc_time FROM lt_album_c ORDER BY ac_time desc limit 0,5 [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1507711783 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1507711783 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1507711783 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1507622174 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1507622174 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1507622174 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1507622134 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1507622134 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1507622134 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1507621967 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1507621967 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1507621967 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1507621902 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1507621902 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1507621902 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_gust` ORDER BY g_time desc LIMIT 5   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` ORDER BY a_hit desc LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lt_ppt` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `lt_ppt` ORDER BY pp_time desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` INNER JOIN lt_tag ON lt_tag.t_id = lt_article.pid  WHERE ( a_show > 0 ) ORDER BY a_time desc LIMIT 0,6   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Undefined variable: about E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 50 行.
+NOTIC: [8] Undefined variable: class E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 51 行.
+NOTIC: [8] Undefined variable: feel E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 58 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 59 行.
+NOTIC: [8] Undefined variable: gust E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 61 行.
+NOTIC: [8] Undefined index: l_name E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 219 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-10-19T12:16:52+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `lt_tag` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `lt_article` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `lt_link` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_version` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `lt_album` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `lt_article_c` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_album_c` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_say` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `lt_say_c` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_gust` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_system` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `lt_picture` [ RunTime:0.0024s ]
+SQL: UPDATE `lt_system` SET `hit`=hit+1 WHERE ( id=1 ) [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lt_article_c` [ RunTime:0.0027s ]
+SQL: SELECT `ac_time` FROM `lt_article_c` UNION ALL SELECT sc_time FROM lt_say_c UNION ALL SELECT alc_time FROM lt_album_c ORDER BY ac_time desc limit 0,5 [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1507711783 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1507711783 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1507711783 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1507622174 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1507622174 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1507622174 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1507622134 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1507622134 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1507622134 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1507621967 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1507621967 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1507621967 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1507621902 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1507621902 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1507621902 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] Undefined variable: about E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 50 行.
+NOTIC: [8] Undefined variable: class E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 51 行.
+NOTIC: [8] Undefined variable: feel E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 58 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 59 行.
+NOTIC: [8] Undefined variable: gust E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 61 行.
+NOTIC: [8] Undefined index: l_name E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 219 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2017-10-19T12:21:27+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `lt_tag` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `lt_article` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `lt_link` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_version` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `lt_album` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `lt_article_c` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_album_c` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_say` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `lt_say_c` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_gust` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `lt_system` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `lt_picture` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `lt_tag` WHERE `t_view` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `a_id`,`a_keyword`,`a_show` FROM `lt_article` WHERE ( a_keyword != '' and a_show > 0 ) ORDER BY a_time desc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_system` LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `lt_system` SET `hit`=hit+1 WHERE ( id=1 ) [ RunTime:0.0099s ]
+SQL: SELECT `a_id` FROM `lt_article` WHERE ( a_show != 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 8 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_link` WHERE `l_show` = 1  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_say_c` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_article_c` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_album_c` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_say` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_article` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_gust` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_album` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_picture` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_link` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_version` WHERE `v_show` = 1 ORDER BY v_id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `a_id` FROM `lt_article` WHERE ( a_show > 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 7 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 8 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_album` WHERE ( al_show = 1 ) ORDER BY al_time desc LIMIT 9   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `lt_article_c` [ RunTime:0.0025s ]
+SQL: SELECT `ac_time` FROM `lt_article_c` UNION ALL SELECT sc_time FROM lt_say_c UNION ALL SELECT alc_time FROM lt_album_c ORDER BY ac_time desc limit 0,5 [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1507711783 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1507711783 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1507711783 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1507622174 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1507622174 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1507622174 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1507622134 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1507622134 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1507622134 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1507621967 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1507621967 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1507621967 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1507621902 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1507621902 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1507621902 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_gust` ORDER BY g_time desc LIMIT 5   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` ORDER BY a_hit desc LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lt_ppt` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `lt_ppt` ORDER BY pp_time desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` INNER JOIN lt_tag ON lt_tag.t_id = lt_article.pid  WHERE ( a_show > 0 ) ORDER BY a_time desc LIMIT 0,6   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8] Undefined variable: about E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 50 行.
+NOTIC: [8] Undefined variable: class E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 51 行.
+NOTIC: [8] Undefined variable: feel E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 58 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 59 行.
+NOTIC: [8] Undefined variable: gust E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 61 行.
+NOTIC: [8] Undefined index: l_name E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 219 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2017-10-19T14:22:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `lt_tag` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `lt_article` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `lt_link` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_version` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `lt_album` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_article_c` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `lt_album_c` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `lt_say` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `lt_say_c` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_gust` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `lt_system` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_picture` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `lt_tag` WHERE `t_view` = 1  [ RunTime:0.0002s ]
+SQL: SELECT `a_id`,`a_keyword`,`a_show` FROM `lt_article` WHERE ( a_keyword != '' and a_show > 0 ) ORDER BY a_time desc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_system` LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `lt_system` SET `hit`=hit+1 WHERE ( id=1 ) [ RunTime:0.0015s ]
+SQL: SELECT `a_id` FROM `lt_article` WHERE ( a_show != 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 7 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_link` WHERE `l_show` = 1  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_say_c` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_article_c` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_album_c` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_say` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_article` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_gust` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_album` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_picture` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_link` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_version` WHERE `v_show` = 1 ORDER BY v_id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `a_id` FROM `lt_article` WHERE ( a_show > 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 7 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 8 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_album` WHERE ( al_show = 1 ) ORDER BY al_time desc LIMIT 9   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `lt_article_c` [ RunTime:0.0028s ]
+SQL: SELECT `ac_time` FROM `lt_article_c` UNION ALL SELECT sc_time FROM lt_say_c UNION ALL SELECT alc_time FROM lt_album_c ORDER BY ac_time desc limit 0,5 [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1507711783 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1507711783 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1507711783 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1507622174 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1507622174 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1507622174 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1507622134 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1507622134 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1507622134 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1507621967 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1507621967 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1507621967 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1507621902 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1507621902 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1507621902 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_gust` ORDER BY g_time desc LIMIT 5   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` ORDER BY a_hit desc LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lt_ppt` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `lt_ppt` ORDER BY pp_time desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_article` INNER JOIN lt_tag ON lt_tag.t_id = lt_article.pid  WHERE ( a_show > 0 ) ORDER BY a_time desc LIMIT 0,6   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Undefined variable: about E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 50 行.
+NOTIC: [8] Undefined variable: class E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 51 行.
+NOTIC: [8] Undefined variable: feel E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 58 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 59 行.
+NOTIC: [8] Undefined variable: gust E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 61 行.
+NOTIC: [8] Undefined index: l_name E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 219 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+

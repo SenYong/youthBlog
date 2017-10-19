@@ -1,0 +1,131 @@
+[ 2017-09-27T10:02:50+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2017-09-27T10:16:28+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Home/Public/sider.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\youthBlog\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Tpl/Home/Public/foot.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\youthBlog\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 6 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 7 行.
+NOTIC: [8] Undefined variable: version E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 8 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 9 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 36 行.
+NOTIC: [8] Undefined variable: index E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 51 行.
+NOTIC: [8] Undefined variable: about E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 52 行.
+NOTIC: [8] Undefined variable: class E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 53 行.
+NOTIC: [8] Undefined variable: pid E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 56 行.
+NOTIC: [8] Undefined variable: feel E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 60 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 61 行.
+NOTIC: [8] Undefined variable: friends E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 62 行.
+NOTIC: [8] Undefined variable: gust E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 63 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 73 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 73 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 76 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 76 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 79 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 79 行.
+NOTIC: [8] Undefined variable: articles E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2017-09-27T10:17:17+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Home/Public/sider.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\youthBlog\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Tpl/Home/Public/foot.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\youthBlog\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 6 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 7 行.
+NOTIC: [8] Undefined variable: version E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 8 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 9 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 36 行.
+NOTIC: [8] Undefined variable: index E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 51 行.
+NOTIC: [8] Undefined variable: about E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 52 行.
+NOTIC: [8] Undefined variable: class E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 53 行.
+NOTIC: [8] Undefined variable: pid E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 56 行.
+NOTIC: [8] Undefined variable: feel E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 60 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 61 行.
+NOTIC: [8] Undefined variable: friends E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 62 行.
+NOTIC: [8] Undefined variable: gust E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 63 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 73 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 73 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 76 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 76 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 79 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 79 行.
+NOTIC: [8] Undefined variable: articles E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2017-09-27T16:44:31+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Home/Public/sider.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\youthBlog\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Tpl/Home/Public/foot.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\youthBlog\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 6 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 7 行.
+NOTIC: [8] Undefined variable: version E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 8 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 9 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 36 行.
+NOTIC: [8] Undefined variable: index E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 51 行.
+NOTIC: [8] Undefined variable: about E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 52 行.
+NOTIC: [8] Undefined variable: class E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 53 行.
+NOTIC: [8] Undefined variable: pid E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 56 行.
+NOTIC: [8] Undefined variable: feel E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 60 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 61 行.
+NOTIC: [8] Undefined variable: friends E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 62 行.
+NOTIC: [8] Undefined variable: gust E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 63 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 73 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 73 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 76 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 76 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 79 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 79 行.
+NOTIC: [8] Undefined variable: articles E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+

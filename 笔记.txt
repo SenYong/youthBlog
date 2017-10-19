@@ -1,0 +1,33 @@
+发表说说
+<!-- 
+* <include file="Index:head"/> : 表示引入Index控制器下的head模板
+ -->
+
+ <!-- 
+ 涉及字段: 说说内容,发表时间,是否显示,发表自,发表人,发表IP,点击量
+ s_id, s_content, s_time, s_view, s_from, s_author, s_ip, s_hit
+ -->
+
+//发表文章
+<!--
+涉及字段: 文章标题,文章类别,关键词,封面,描述,文章内容,发表时间, 显示,原创,发表人,点击量
+a_id, a_title, pid, a_keyword, a_img, a_remark, a_content, a_time, a_show, a_original, a_author, a_hit, a_from, a_ip, a_num
+-->
+
+//栏目
+<!--
+涉及字段: 栏目名, 栏目描述, 添加时间, 添加人, 显示, 排序, 发表自, 发表ip
+t_id, t_name, t_remark, t_time, t_root, t_view, t_sort, t_from, t_ip
+-->
+
+
+
+
+
+
+//遇到困难
+模板自定义函数是要放在应用目录下的 E:\youthBlog\Application\Common\Common文件夹里面
+
+修改字段comment : alter table lt_say modify column s_view int comment '1为显示0为不显示'
+
+

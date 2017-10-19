@@ -1,0 +1,130 @@
+<include file="Index:head"/>	
+<script>
+function PreviewImage(imgFile)
+{
+    var filextension=imgFile.value.substring(imgFile.value.lastIndexOf("."),imgFile.value.length);
+    filextension=filextension.toLowerCase();
+    if ((filextension!='.jpg')&&(filextension!='.gif')&&(filextension!='.jpeg')&&(filextension!='.png')&&(filextension!='.bmp'))
+    {
+        alert("对不起，系统仅支持标准格式的照片，请您调整格式后重新上传，谢谢 !");
+        imgFile.focus();
+    }
+    else
+    {
+        var path;
+        if(document.all)//IE
+        {
+            imgFile.select();
+            path = document.selection.createRange().text;
+            document.getElementById("imgPreview").innerHTML="";
+            document.getElementById("imgPreview").style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true',sizingMethod='scale',src=\"" + path + "\")";//使用滤镜效果      
+        }
+        else//FF
+        {
+            path=window.URL.createObjectURL(imgFile.files[0]);// FF 7.0以上
+            //path = imgFile.files[0].getAsDataURL();// FF 3.0
+            document.getElementById("imgPreview").innerHTML = "<img class='img'  src='"+path+"'/>";
+            //document.getElementById("img1").src = path;
+        }
+    }
+}
+
+function check(){
+   if(!$("#file").val()){
+   	 err("请先上传图片");
+   	 return false;
+   }
+   return false;
+}
+function checkIdent(){
+   if($('#checkImg').val() == $('.img').attr('src')){
+   	 window.location.href = "/Admin/System/pptList";
+   	 return false;
+   }
+   return true;
+}
+</script>	
+<div id="content">
+	<div id="content-header">
+		<h1>幻灯设置</h1>
+	</div>
+	<div id="breadcrumb">
+		<a href="index.html" title="回到首页" class="tip-bottom"><i class="fa fa-home"></i> 首页</a>
+		<a href="#">系统设置</a>
+		<a href="#" class="current">幻灯设置</a>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="alert alert-info">
+					<i class="fa fa-code"></i>建议修改尺寸为 1175 * 275 ，请自行裁剪。
+					<a href="#" data-dismiss="alert" class="close">×</a>
+				</div>
+				<div class="widget-box">
+					<div class="widget-title">
+						<span class="icon">
+							<i class="fa fa-folder-open"></i>									
+						</span>
+						<h5>幻灯设置</h5>
+					</div>
+					<div class="widget-content nopadding">
+					   <empty name="info['pp_id']">
+					       <form action="{:U('Admin/System/pptAdd')}" method="post" class="form-horizontal" enctype="multipart/form-data" onsubmit="return check()" />
+								<div class="form-group">
+									<label class="col-sm-3 col-md-3 col-lg-1 control-label">预览</label>
+									<div class="col-sm-9 col-md-9 col-lg-10">
+										<div style="border: 1px solid #999999;min-height: 100px;text-align: center;padding: 2px;" id="imgPreview">
+											<img src="" class="img"/>
+										</div>
+									</div>
+								</div>
+	                            
+	                            <div class="form-group">
+	                           		<label class="col-sm-3 col-md-3 col-lg-1 control-label">幻灯添加</label>
+	                                <div class=" col-sm-9 col-md-9 col-lg-10">
+	                                	<div class="input-group input-group-sm">
+	                                    	<input type="file" name="file" onchange='PreviewImage(this)' id="file"/>
+	                                    </div>
+	                                </div>
+	                            </div>
+	                            
+	                            <div class="form-actions">
+									<button type="submit" class="btn btn-success btn-sm">存入数据库</button>  <button type="submit" class="btn btn-danger btn-sm">取消</button>
+								</div>
+					       </form>
+					   <else/>
+                            <form action="{:U('Admin/System/pptEditH',array('id'=>$info['pp_id']))}" method="post" class="form-horizontal" enctype="multipart/form-data" onsubmit="return checkIdent()" />
+								<div class="form-group">
+								    <input type="hidden" id="checkImg" value="{$info.pp_img}">
+									<label class="col-sm-3 col-md-3 col-lg-1 control-label">预览</label>
+									<div class="col-sm-9 col-md-9 col-lg-10">
+										<div style="border: 1px solid #999999;min-height: 100px;text-align: center;padding: 2px;" id="imgPreview">
+											<img src="{$info.pp_img}" class="img"/>
+										</div>
+									</div>
+								</div>
+	                            
+	                            <div class="form-group">
+	                           		<label class="col-sm-3 col-md-3 col-lg-1 control-label">幻灯修改</label>
+	                                <div class=" col-sm-9 col-md-9 col-lg-10">
+	                                	<div class="input-group input-group-sm">
+	                                    	<input type="file" name="file" onchange='PreviewImage(this)' id="file"/>
+	                                    </div>
+	                                </div>
+	                            </div>
+	                            
+	                            <div class="form-actions">
+									<button type="submit" class="btn btn-success btn-sm">修改数据库</button>  <button type="submit" class="btn btn-danger btn-sm">取消</button>
+								</div>
+					       </form>
+					    </empty>
+					</div>
+				</div>						
+			</div>
+		</div>
+	</div>
+</div>
+<include file="Index:footer"/>
+
+</body>
+</html>

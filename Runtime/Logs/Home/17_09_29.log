@@ -1,0 +1,445 @@
+[ 2017-09-29T10:05:04+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2017-09-29T17:55:46+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+ERR: 无法加载控制器:Login
+
+[ 2017-09-29T17:56:13+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+ERR: 无法加载控制器:Login
+
+[ 2017-09-29T17:56:16+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+ERR: 无法加载控制器:Login
+
+[ 2017-09-29T17:56:17+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+ERR: 无法加载控制器:Login
+
+[ 2017-09-29T17:56:30+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+ERR: 无法加载控制器:Login
+
+[ 2017-09-29T17:56:32+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+ERR: 无法加载控制器:Login
+
+[ 2017-09-29T17:56:36+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+ERR: 无法加载控制器:Login
+
+[ 2017-09-29T17:57:00+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Home/Public/sider.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\youthBlog\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Tpl/Home/Public/foot.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\youthBlog\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 6 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 7 行.
+NOTIC: [8] Undefined variable: version E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 8 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 9 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 36 行.
+NOTIC: [8] Undefined variable: index E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 51 行.
+NOTIC: [8] Undefined variable: about E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 52 行.
+NOTIC: [8] Undefined variable: class E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 53 行.
+NOTIC: [8] Undefined variable: pid E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 56 行.
+NOTIC: [8] Undefined variable: feel E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 60 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 61 行.
+NOTIC: [8] Undefined variable: friends E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 62 行.
+NOTIC: [8] Undefined variable: gust E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 63 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 73 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 73 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 76 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 76 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 79 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 79 行.
+NOTIC: [8] Undefined variable: articles E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2017-09-29T17:57:00+08:00 ] 127.0.0.1 /index.php/Home/Index/Public/Css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+ERR: 非法操作:Public
+
+[ 2017-09-29T17:57:00+08:00 ] 127.0.0.1 /index.php/Home/Index/Public/Css/my.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+ERR: 非法操作:Public
+
+[ 2017-09-29T17:57:00+08:00 ] 127.0.0.1 /index.php/Home/Index/Public/Js/jquery.nivo.slider.pack.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+ERR: 非法操作:Public
+
+[ 2017-09-29T17:57:00+08:00 ] 127.0.0.1 /index.php/Home/Index/Public/Img/icon/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+
+[ 2017-09-29T17:57:00+08:00 ] 127.0.0.1 /index.php/Home/Index/Public/Img/icon/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+
+[ 2017-09-29T17:57:13+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+ERR: 无法加载控制器:Login
+
+[ 2017-09-29T17:58:15+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Home/Public/sider.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\youthBlog\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Tpl/Home/Public/foot.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\youthBlog\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 6 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 7 行.
+NOTIC: [8] Undefined variable: version E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 8 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 9 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 36 行.
+NOTIC: [8] Undefined variable: index E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 51 行.
+NOTIC: [8] Undefined variable: about E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 52 行.
+NOTIC: [8] Undefined variable: class E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 53 行.
+NOTIC: [8] Undefined variable: pid E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 56 行.
+NOTIC: [8] Undefined variable: feel E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 60 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 61 行.
+NOTIC: [8] Undefined variable: friends E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 62 行.
+NOTIC: [8] Undefined variable: gust E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 63 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 73 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 73 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 76 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 76 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 79 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 79 行.
+NOTIC: [8] Undefined variable: articles E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2017-09-29T17:58:15+08:00 ] 127.0.0.1 /index.php/Home/Index/Public/Css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+ERR: 非法操作:Public
+
+[ 2017-09-29T17:58:15+08:00 ] 127.0.0.1 /index.php/Home/Index/Public/Css/my.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+ERR: 非法操作:Public
+
+[ 2017-09-29T17:58:15+08:00 ] 127.0.0.1 /index.php/Home/Index/Public/Js/jquery.nivo.slider.pack.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+ERR: 非法操作:Public
+
+[ 2017-09-29T17:58:15+08:00 ] 127.0.0.1 /index.php/Home/Index/Public/Img/icon/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+
+[ 2017-09-29T17:58:18+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+ERR: 无法加载控制器:Login
+
+[ 2017-09-29T17:59:04+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2017-09-29T17:59:11+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2017-09-29T17:59:24+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Home/Public/sider.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\youthBlog\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Tpl/Home/Public/foot.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\youthBlog\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 6 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 7 行.
+NOTIC: [8] Undefined variable: version E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 8 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 9 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 36 行.
+NOTIC: [8] Undefined variable: index E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 51 行.
+NOTIC: [8] Undefined variable: about E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 52 行.
+NOTIC: [8] Undefined variable: class E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 53 行.
+NOTIC: [8] Undefined variable: pid E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 56 行.
+NOTIC: [8] Undefined variable: feel E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 60 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 61 行.
+NOTIC: [8] Undefined variable: friends E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 62 行.
+NOTIC: [8] Undefined variable: gust E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 63 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 73 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 73 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 76 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 76 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 79 行.
+NOTIC: [8] Undefined variable: ppt E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 79 行.
+NOTIC: [8] Undefined variable: articles E:\youthBlog\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2017-09-29T17:59:24+08:00 ] 127.0.0.1 /index.php/Home/Index/Public/Css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+ERR: 非法操作:Public
+
+[ 2017-09-29T17:59:24+08:00 ] 127.0.0.1 /index.php/Home/Index/Public/Css/my.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+ERR: 非法操作:Public
+
+[ 2017-09-29T17:59:25+08:00 ] 127.0.0.1 /index.php/Home/Index/Public/Img/icon/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+
+[ 2017-09-29T17:59:25+08:00 ] 127.0.0.1 /index.php/Home/Index/Public/Js/jquery.nivo.slider.pack.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+ERR: 非法操作:Public
+
+[ 2017-09-29T17:59:25+08:00 ] 127.0.0.1 /index.php/Home/Index/Public/Img/icon/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2017-09-29T17:59:27+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+ERR: 无法加载控制器:Login
+
+[ 2017-09-29T17:59:41+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+ERR: 无法加载控制器:Login
+
+[ 2017-09-29T17:59:42+08:00 ] 127.0.0.1 /index.php/Home/Index/Public/Css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+ERR: 非法操作:Public
+
+[ 2017-09-29T17:59:42+08:00 ] 127.0.0.1 /index.php/Home/Index/Public/Css/my.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+ERR: 非法操作:Public
+
+[ 2017-09-29T17:59:42+08:00 ] 127.0.0.1 /index.php/Home/Index/Public/Js/jquery.nivo.slider.pack.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+ERR: 非法操作:Public
+
+[ 2017-09-29T17:59:45+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+ERR: 无法加载控制器:Login
+
+[ 2017-09-29T18:00:20+08:00 ] 127.0.0.1 /index.php/Home/Index/Public/Css/my.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+ERR: 非法操作:Public
+
+[ 2017-09-29T18:00:20+08:00 ] 127.0.0.1 /index.php/Home/Index/Public/Css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+ERR: 非法操作:Public
+
+[ 2017-09-29T18:00:20+08:00 ] 127.0.0.1 /index.php/Home/Index/Public/Js/jquery.nivo.slider.pack.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+ERR: 非法操作:Public
+
+[ 2017-09-29T18:00:21+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+ERR: 无法加载控制器:Login
+
+[ 2017-09-29T18:00:22+08:00 ] 127.0.0.1 /index.php/Home/Index/Public/Css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+ERR: 非法操作:Public
+
+[ 2017-09-29T18:00:22+08:00 ] 127.0.0.1 /index.php/Home/Index/Public/Css/my.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+ERR: 非法操作:Public
+
+[ 2017-09-29T18:00:22+08:00 ] 127.0.0.1 /index.php/Home/Index/Public/Js/jquery.nivo.slider.pack.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+ERR: 非法操作:Public
+

@@ -1,0 +1,1421 @@
+[ 2017-09-30T09:50:20+08:00 ] 127.0.0.1 /Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2017-09-30T09:50:27+08:00 ] 127.0.0.1 /Admin/Login/in
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `lt_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `lt_user` WHERE `u_name` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-30T09:50:30+08:00 ] 127.0.0.1 /Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `lt_system` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `lt_article` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `lt_say` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `lt_picture` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `lt_album` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `lt_link` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `lt_system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_say` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_article` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_picture` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_album` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_link` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: add E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 41 行.
+NOTIC: [8] Undefined variable: say E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 44 行.
+NOTIC: [8] Undefined variable: art E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 45 行.
+NOTIC: [8] Undefined variable: ver E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 46 行.
+NOTIC: [8] Undefined variable: lists E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 49 行.
+NOTIC: [8] Undefined variable: saylist E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 52 行.
+NOTIC: [8] Undefined variable: artlist E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 53 行.
+NOTIC: [8] Undefined variable: verlist E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 54 行.
+NOTIC: [8] Undefined variable: user E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 66 行.
+NOTIC: [8] Undefined variable: useradd E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 69 行.
+NOTIC: [8] Undefined variable: userlist E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 70 行.
+NOTIC: [8] Undefined variable: tag E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 73 行.
+NOTIC: [8] Undefined variable: addtag E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 76 行.
+NOTIC: [8] Undefined variable: addlist E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 77 行.
+NOTIC: [8] Undefined variable: link E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 80 行.
+NOTIC: [8] Undefined variable: linkadd E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 83 行.
+NOTIC: [8] Undefined variable: linklist E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 84 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 88 行.
+NOTIC: [8] Undefined variable: albumadd E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 91 行.
+NOTIC: [8] Undefined variable: albumlist E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 92 行.
+NOTIC: [8] Undefined variable: picture E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 96 行.
+NOTIC: [8] Undefined variable: addpic E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 99 行.
+NOTIC: [8] Undefined variable: listpic E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 100 行.
+NOTIC: [8] Undefined variable: basic E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 106 行.
+NOTIC: [8] Undefined variable: systemone E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 107 行.
+NOTIC: [8] Undefined variable: email E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 108 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 109 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 113 行.
+NOTIC: [8] Undefined variable: addppt E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 116 行.
+NOTIC: [8] Undefined variable: listppt E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 117 行.
+NOTIC: [8] Undefined variable: s_content E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 197 行.
+NOTIC: [8] Undefined variable: gusts E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2017-09-30T10:00:06+08:00 ] 127.0.0.1 /index.php/Admin/Tag/tagList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `lt_tag` [ RunTime:0.0096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_tag` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_tag` ORDER BY t_time desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: index E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 39 行.
+NOTIC: [8] Undefined variable: add E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 41 行.
+NOTIC: [8] Undefined variable: say E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 44 行.
+NOTIC: [8] Undefined variable: art E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 45 行.
+NOTIC: [8] Undefined variable: ver E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 46 行.
+NOTIC: [8] Undefined variable: lists E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 49 行.
+NOTIC: [8] Undefined variable: saylist E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 52 行.
+NOTIC: [8] Undefined variable: artlist E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 53 行.
+NOTIC: [8] Undefined variable: verlist E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 54 行.
+NOTIC: [8] Undefined variable: user E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 66 行.
+NOTIC: [8] Undefined variable: useradd E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 69 行.
+NOTIC: [8] Undefined variable: userlist E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 70 行.
+NOTIC: [8] Undefined variable: addtag E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 76 行.
+NOTIC: [8] Undefined variable: link E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 80 行.
+NOTIC: [8] Undefined variable: linkadd E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 83 行.
+NOTIC: [8] Undefined variable: linklist E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 84 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 88 行.
+NOTIC: [8] Undefined variable: albumadd E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 91 行.
+NOTIC: [8] Undefined variable: albumlist E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 92 行.
+NOTIC: [8] Undefined variable: picture E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 96 行.
+NOTIC: [8] Undefined variable: addpic E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 99 行.
+NOTIC: [8] Undefined variable: listpic E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 100 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 103 行.
+NOTIC: [8] Undefined variable: basic E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 106 行.
+NOTIC: [8] Undefined variable: systemone E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 107 行.
+NOTIC: [8] Undefined variable: email E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 108 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 109 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 113 行.
+NOTIC: [8] Undefined variable: addppt E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 116 行.
+NOTIC: [8] Undefined variable: listppt E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2017-09-30T10:00:07+08:00 ] 127.0.0.1 /index.php/Admin/Tag/tagList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `lt_tag` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_tag` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_tag` ORDER BY t_time desc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: index E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 39 行.
+NOTIC: [8] Undefined variable: add E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 41 行.
+NOTIC: [8] Undefined variable: say E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 44 行.
+NOTIC: [8] Undefined variable: art E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 45 行.
+NOTIC: [8] Undefined variable: ver E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 46 行.
+NOTIC: [8] Undefined variable: lists E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 49 行.
+NOTIC: [8] Undefined variable: saylist E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 52 行.
+NOTIC: [8] Undefined variable: artlist E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 53 行.
+NOTIC: [8] Undefined variable: verlist E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 54 行.
+NOTIC: [8] Undefined variable: user E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 66 行.
+NOTIC: [8] Undefined variable: useradd E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 69 行.
+NOTIC: [8] Undefined variable: userlist E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 70 行.
+NOTIC: [8] Undefined variable: addtag E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 76 行.
+NOTIC: [8] Undefined variable: link E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 80 行.
+NOTIC: [8] Undefined variable: linkadd E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 83 行.
+NOTIC: [8] Undefined variable: linklist E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 84 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 88 行.
+NOTIC: [8] Undefined variable: albumadd E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 91 行.
+NOTIC: [8] Undefined variable: albumlist E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 92 行.
+NOTIC: [8] Undefined variable: picture E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 96 行.
+NOTIC: [8] Undefined variable: addpic E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 99 行.
+NOTIC: [8] Undefined variable: listpic E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 100 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 103 行.
+NOTIC: [8] Undefined variable: basic E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 106 行.
+NOTIC: [8] Undefined variable: systemone E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 107 行.
+NOTIC: [8] Undefined variable: email E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 108 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 109 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 113 行.
+NOTIC: [8] Undefined variable: addppt E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 116 行.
+NOTIC: [8] Undefined variable: listppt E:\youthBlog\Runtime\Cache\Admin\1901514a7a2d5a7769a4b674b3483d10.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-09-30T10:53:47+08:00 ] 127.0.0.1 /Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-09-30T10:59:33+08:00 ] 127.0.0.1 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-09-30T10:59:39+08:00 ] 127.0.0.1 /Admin/Login/in
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `lt_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lt_user` WHERE `u_name` = 'admin' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-09-30T10:59:42+08:00 ] 127.0.0.1 /Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `lt_system` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lt_article` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `lt_say` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_picture` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_album` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `lt_link` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `lt_system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_say` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_article` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_picture` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_album` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_link` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined variable: add E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 41 行.
+NOTIC: [8] Undefined variable: say E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 44 行.
+NOTIC: [8] Undefined variable: art E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 45 行.
+NOTIC: [8] Undefined variable: ver E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 46 行.
+NOTIC: [8] Undefined variable: lists E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 49 行.
+NOTIC: [8] Undefined variable: saylist E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 52 行.
+NOTIC: [8] Undefined variable: artlist E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 53 行.
+NOTIC: [8] Undefined variable: verlist E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 54 行.
+NOTIC: [8] Undefined variable: user E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 66 行.
+NOTIC: [8] Undefined variable: useradd E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 69 行.
+NOTIC: [8] Undefined variable: userlist E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 70 行.
+NOTIC: [8] Undefined variable: tag E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 73 行.
+NOTIC: [8] Undefined variable: addtag E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 76 行.
+NOTIC: [8] Undefined variable: addlist E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 77 行.
+NOTIC: [8] Undefined variable: link E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 80 行.
+NOTIC: [8] Undefined variable: linkadd E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 83 行.
+NOTIC: [8] Undefined variable: linklist E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 84 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 88 行.
+NOTIC: [8] Undefined variable: albumadd E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 91 行.
+NOTIC: [8] Undefined variable: albumlist E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 92 行.
+NOTIC: [8] Undefined variable: picture E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 96 行.
+NOTIC: [8] Undefined variable: addpic E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 99 行.
+NOTIC: [8] Undefined variable: listpic E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 100 行.
+NOTIC: [8] Undefined variable: basic E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 106 行.
+NOTIC: [8] Undefined variable: systemone E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 107 行.
+NOTIC: [8] Undefined variable: email E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 108 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 109 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 113 行.
+NOTIC: [8] Undefined variable: addppt E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 116 行.
+NOTIC: [8] Undefined variable: listppt E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 117 行.
+NOTIC: [8] Undefined variable: s_content E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 197 行.
+NOTIC: [8] Undefined variable: gusts E:\youthBlog\Runtime\Cache\Admin\3e2c5b3723125ba4e3528de39b9d496a.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2017-09-30T11:17:57+08:00 ] 127.0.0.1 /index.php/Admin/System/pptList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `lt_ppt` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `lt_ppt` ORDER BY pp_id desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined variable: index E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 39 行.
+NOTIC: [8] Undefined variable: add E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 41 行.
+NOTIC: [8] Undefined variable: say E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 44 行.
+NOTIC: [8] Undefined variable: art E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 45 行.
+NOTIC: [8] Undefined variable: ver E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 46 行.
+NOTIC: [8] Undefined variable: lists E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 49 行.
+NOTIC: [8] Undefined variable: saylist E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 52 行.
+NOTIC: [8] Undefined variable: artlist E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 53 行.
+NOTIC: [8] Undefined variable: verlist E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 54 行.
+NOTIC: [8] Undefined variable: user E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 66 行.
+NOTIC: [8] Undefined variable: useradd E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 69 行.
+NOTIC: [8] Undefined variable: userlist E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 70 行.
+NOTIC: [8] Undefined variable: tag E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 73 行.
+NOTIC: [8] Undefined variable: addtag E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 76 行.
+NOTIC: [8] Undefined variable: addlist E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 77 行.
+NOTIC: [8] Undefined variable: link E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 80 行.
+NOTIC: [8] Undefined variable: linkadd E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 83 行.
+NOTIC: [8] Undefined variable: linklist E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 84 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 88 行.
+NOTIC: [8] Undefined variable: albumadd E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 91 行.
+NOTIC: [8] Undefined variable: albumlist E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 92 行.
+NOTIC: [8] Undefined variable: picture E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 96 行.
+NOTIC: [8] Undefined variable: addpic E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 99 行.
+NOTIC: [8] Undefined variable: listpic E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 100 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 103 行.
+NOTIC: [8] Undefined variable: basic E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 106 行.
+NOTIC: [8] Undefined variable: systemone E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 107 行.
+NOTIC: [8] Undefined variable: email E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 108 行.
+NOTIC: [8] Undefined variable: addppt E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2017-09-30T11:18:00+08:00 ] 127.0.0.1 /index.php/Admin/System/pptEdit/id/17.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `lt_ppt` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `lt_ppt` WHERE `pp_id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: index E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 39 行.
+NOTIC: [8] Undefined variable: add E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 41 行.
+NOTIC: [8] Undefined variable: say E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 44 行.
+NOTIC: [8] Undefined variable: art E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 45 行.
+NOTIC: [8] Undefined variable: ver E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 46 行.
+NOTIC: [8] Undefined variable: lists E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 49 行.
+NOTIC: [8] Undefined variable: saylist E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 52 行.
+NOTIC: [8] Undefined variable: artlist E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 53 行.
+NOTIC: [8] Undefined variable: verlist E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 54 行.
+NOTIC: [8] Undefined variable: user E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 66 行.
+NOTIC: [8] Undefined variable: useradd E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 69 行.
+NOTIC: [8] Undefined variable: userlist E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 70 行.
+NOTIC: [8] Undefined variable: tag E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 73 行.
+NOTIC: [8] Undefined variable: addtag E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 76 行.
+NOTIC: [8] Undefined variable: addlist E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 77 行.
+NOTIC: [8] Undefined variable: link E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 80 行.
+NOTIC: [8] Undefined variable: linkadd E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 83 行.
+NOTIC: [8] Undefined variable: linklist E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 84 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 88 行.
+NOTIC: [8] Undefined variable: albumadd E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 91 行.
+NOTIC: [8] Undefined variable: albumlist E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 92 行.
+NOTIC: [8] Undefined variable: picture E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 96 行.
+NOTIC: [8] Undefined variable: addpic E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 99 行.
+NOTIC: [8] Undefined variable: listpic E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 100 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 103 行.
+NOTIC: [8] Undefined variable: basic E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 106 行.
+NOTIC: [8] Undefined variable: systemone E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 107 行.
+NOTIC: [8] Undefined variable: email E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 108 行.
+NOTIC: [8] Undefined variable: addppt E:\youthBlog\Runtime\Cache\Admin\3d024b5f0d26f2cabb49ebca4857ae66.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2017-09-30T11:18:17+08:00 ] 127.0.0.1 /index.php/Admin/System/pptEditH/id/17.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\youthBlog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `lt_ppt` [ RunTime:0.0026s ]
+SQL: UPDATE `lt_ppt` SET `pp_img`='/Public/Img/ppt/1506741496.png',`pp_time`='1506741496',`pp_from`='Win 7',`pp_ip`='127.0.0.1',`pp_root`='admin' WHERE `pp_id` = 17 [ RunTime:0.0099s ]
+
+[ 2017-09-30T11:18:18+08:00 ] 127.0.0.1 /index.php/Admin/System/pptList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `lt_ppt` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `lt_ppt` ORDER BY pp_id desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: index E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 39 行.
+NOTIC: [8] Undefined variable: add E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 41 行.
+NOTIC: [8] Undefined variable: say E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 44 行.
+NOTIC: [8] Undefined variable: art E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 45 行.
+NOTIC: [8] Undefined variable: ver E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 46 行.
+NOTIC: [8] Undefined variable: lists E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 49 行.
+NOTIC: [8] Undefined variable: saylist E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 52 行.
+NOTIC: [8] Undefined variable: artlist E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 53 行.
+NOTIC: [8] Undefined variable: verlist E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 54 行.
+NOTIC: [8] Undefined variable: user E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 66 行.
+NOTIC: [8] Undefined variable: useradd E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 69 行.
+NOTIC: [8] Undefined variable: userlist E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 70 行.
+NOTIC: [8] Undefined variable: tag E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 73 行.
+NOTIC: [8] Undefined variable: addtag E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 76 行.
+NOTIC: [8] Undefined variable: addlist E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 77 行.
+NOTIC: [8] Undefined variable: link E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 80 行.
+NOTIC: [8] Undefined variable: linkadd E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 83 行.
+NOTIC: [8] Undefined variable: linklist E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 84 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 88 行.
+NOTIC: [8] Undefined variable: albumadd E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 91 行.
+NOTIC: [8] Undefined variable: albumlist E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 92 行.
+NOTIC: [8] Undefined variable: picture E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 96 行.
+NOTIC: [8] Undefined variable: addpic E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 99 行.
+NOTIC: [8] Undefined variable: listpic E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 100 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 103 行.
+NOTIC: [8] Undefined variable: basic E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 106 行.
+NOTIC: [8] Undefined variable: systemone E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 107 行.
+NOTIC: [8] Undefined variable: email E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 108 行.
+NOTIC: [8] Undefined variable: addppt E:\youthBlog\Runtime\Cache\Admin\9d6c314310c35318db5ca778b81c4e45.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2017-09-30T11:33:42+08:00 ] 127.0.0.1 /index.php/Admin/System/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `lt_system` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `lt_system` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined variable: index E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 39 行.
+NOTIC: [8] Undefined variable: add E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 41 行.
+NOTIC: [8] Undefined variable: say E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 44 行.
+NOTIC: [8] Undefined variable: art E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 45 行.
+NOTIC: [8] Undefined variable: ver E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 46 行.
+NOTIC: [8] Undefined variable: lists E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 49 行.
+NOTIC: [8] Undefined variable: saylist E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 52 行.
+NOTIC: [8] Undefined variable: artlist E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 53 行.
+NOTIC: [8] Undefined variable: verlist E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 54 行.
+NOTIC: [8] Undefined variable: user E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 66 行.
+NOTIC: [8] Undefined variable: useradd E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 69 行.
+NOTIC: [8] Undefined variable: userlist E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 70 行.
+NOTIC: [8] Undefined variable: tag E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 73 行.
+NOTIC: [8] Undefined variable: addtag E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 76 行.
+NOTIC: [8] Undefined variable: addlist E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 77 行.
+NOTIC: [8] Undefined variable: link E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 80 行.
+NOTIC: [8] Undefined variable: linkadd E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 83 行.
+NOTIC: [8] Undefined variable: linklist E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 84 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 88 行.
+NOTIC: [8] Undefined variable: albumadd E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 91 行.
+NOTIC: [8] Undefined variable: albumlist E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 92 行.
+NOTIC: [8] Undefined variable: picture E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 96 行.
+NOTIC: [8] Undefined variable: addpic E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 99 行.
+NOTIC: [8] Undefined variable: listpic E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 100 行.
+NOTIC: [8] Undefined variable: systemone E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 107 行.
+NOTIC: [8] Undefined variable: email E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 108 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 109 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 113 行.
+NOTIC: [8] Undefined variable: addppt E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 116 行.
+NOTIC: [8] Undefined variable: listppt E:\youthBlog\Runtime\Cache\Admin\30e4c7023c5dd131cf3c3b80f31e3ffa.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-09-30T15:20:56+08:00 ] 127.0.0.1 /index.php/Admin/Link/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined variable: index E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 39 行.
+NOTIC: [8] Undefined variable: add E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 41 行.
+NOTIC: [8] Undefined variable: say E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 44 行.
+NOTIC: [8] Undefined variable: art E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 45 行.
+NOTIC: [8] Undefined variable: ver E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 46 行.
+NOTIC: [8] Undefined variable: lists E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 49 行.
+NOTIC: [8] Undefined variable: saylist E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 52 行.
+NOTIC: [8] Undefined variable: artlist E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 53 行.
+NOTIC: [8] Undefined variable: verlist E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 54 行.
+NOTIC: [8] Undefined variable: user E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 66 行.
+NOTIC: [8] Undefined variable: useradd E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 69 行.
+NOTIC: [8] Undefined variable: userlist E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 70 行.
+NOTIC: [8] Undefined variable: tag E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 73 行.
+NOTIC: [8] Undefined variable: addtag E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 76 行.
+NOTIC: [8] Undefined variable: addlist E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 77 行.
+NOTIC: [8] Undefined variable: linklist E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 84 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 88 行.
+NOTIC: [8] Undefined variable: albumadd E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 91 行.
+NOTIC: [8] Undefined variable: albumlist E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 92 行.
+NOTIC: [8] Undefined variable: picture E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 96 行.
+NOTIC: [8] Undefined variable: addpic E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 99 行.
+NOTIC: [8] Undefined variable: listpic E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 100 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 103 行.
+NOTIC: [8] Undefined variable: basic E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 106 行.
+NOTIC: [8] Undefined variable: systemone E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 107 行.
+NOTIC: [8] Undefined variable: email E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 108 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 109 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 113 行.
+NOTIC: [8] Undefined variable: addppt E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 116 行.
+NOTIC: [8] Undefined variable: listppt E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 117 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 168 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 175 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 183 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 192 行.
+NOTIC: [2] Missing argument 2 for getIp(), called in E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php on line 207 and defined E:\youthBlog\Application\Common\Common\function.php 第 142 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 232 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 233 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\ddf9173a1efd3502be42ae5551e05af2.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2017-09-30T15:20:59+08:00 ] 127.0.0.1 /index.php/Admin/Link/linkList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `lt_link` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_link` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_link` ORDER BY l_id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined variable: index E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 39 行.
+NOTIC: [8] Undefined variable: add E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 41 行.
+NOTIC: [8] Undefined variable: say E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 44 行.
+NOTIC: [8] Undefined variable: art E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 45 行.
+NOTIC: [8] Undefined variable: ver E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 46 行.
+NOTIC: [8] Undefined variable: lists E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 49 行.
+NOTIC: [8] Undefined variable: saylist E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 52 行.
+NOTIC: [8] Undefined variable: artlist E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 53 行.
+NOTIC: [8] Undefined variable: verlist E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 54 行.
+NOTIC: [8] Undefined variable: user E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 66 行.
+NOTIC: [8] Undefined variable: useradd E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 69 行.
+NOTIC: [8] Undefined variable: userlist E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 70 行.
+NOTIC: [8] Undefined variable: tag E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 73 行.
+NOTIC: [8] Undefined variable: addtag E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 76 行.
+NOTIC: [8] Undefined variable: addlist E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 77 行.
+NOTIC: [8] Undefined variable: linkadd E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 83 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 88 行.
+NOTIC: [8] Undefined variable: albumadd E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 91 行.
+NOTIC: [8] Undefined variable: albumlist E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 92 行.
+NOTIC: [8] Undefined variable: picture E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 96 行.
+NOTIC: [8] Undefined variable: addpic E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 99 行.
+NOTIC: [8] Undefined variable: listpic E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 100 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 103 行.
+NOTIC: [8] Undefined variable: basic E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 106 行.
+NOTIC: [8] Undefined variable: systemone E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 107 行.
+NOTIC: [8] Undefined variable: email E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 108 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 109 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 113 行.
+NOTIC: [8] Undefined variable: addppt E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 116 行.
+NOTIC: [8] Undefined variable: listppt E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2017-09-30T15:21:10+08:00 ] 127.0.0.1 /index.php/Admin/Link/linkList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `lt_link` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_link` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_link` ORDER BY l_id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined variable: index E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 39 行.
+NOTIC: [8] Undefined variable: add E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 41 行.
+NOTIC: [8] Undefined variable: say E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 44 行.
+NOTIC: [8] Undefined variable: art E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 45 行.
+NOTIC: [8] Undefined variable: ver E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 46 行.
+NOTIC: [8] Undefined variable: lists E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 49 行.
+NOTIC: [8] Undefined variable: saylist E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 52 行.
+NOTIC: [8] Undefined variable: artlist E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 53 行.
+NOTIC: [8] Undefined variable: verlist E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 54 行.
+NOTIC: [8] Undefined variable: user E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 66 行.
+NOTIC: [8] Undefined variable: useradd E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 69 行.
+NOTIC: [8] Undefined variable: userlist E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 70 行.
+NOTIC: [8] Undefined variable: tag E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 73 行.
+NOTIC: [8] Undefined variable: addtag E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 76 行.
+NOTIC: [8] Undefined variable: addlist E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 77 行.
+NOTIC: [8] Undefined variable: linkadd E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 83 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 88 行.
+NOTIC: [8] Undefined variable: albumadd E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 91 行.
+NOTIC: [8] Undefined variable: albumlist E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 92 行.
+NOTIC: [8] Undefined variable: picture E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 96 行.
+NOTIC: [8] Undefined variable: addpic E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 99 行.
+NOTIC: [8] Undefined variable: listpic E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 100 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 103 行.
+NOTIC: [8] Undefined variable: basic E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 106 行.
+NOTIC: [8] Undefined variable: systemone E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 107 行.
+NOTIC: [8] Undefined variable: email E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 108 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 109 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 113 行.
+NOTIC: [8] Undefined variable: addppt E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 116 行.
+NOTIC: [8] Undefined variable: listppt E:\youthBlog\Runtime\Cache\Admin\ddd098e904862673169d510f60d166a3.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2017-09-30T15:36:26+08:00 ] 127.0.0.1 /index.php/Admin/Article/ArtList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `lt_article` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_article` ORDER BY a_id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: index E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 39 行.
+NOTIC: [8] Undefined variable: add E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 41 行.
+NOTIC: [8] Undefined variable: say E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 44 行.
+NOTIC: [8] Undefined variable: art E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 45 行.
+NOTIC: [8] Undefined variable: ver E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 46 行.
+NOTIC: [8] Undefined variable: saylist E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 52 行.
+NOTIC: [8] Undefined variable: verlist E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 54 行.
+NOTIC: [8] Undefined variable: user E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 66 行.
+NOTIC: [8] Undefined variable: useradd E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 69 行.
+NOTIC: [8] Undefined variable: userlist E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 70 行.
+NOTIC: [8] Undefined variable: tag E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 73 行.
+NOTIC: [8] Undefined variable: addtag E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 76 行.
+NOTIC: [8] Undefined variable: addlist E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 77 行.
+NOTIC: [8] Undefined variable: link E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 80 行.
+NOTIC: [8] Undefined variable: linkadd E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 83 行.
+NOTIC: [8] Undefined variable: linklist E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 84 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 88 行.
+NOTIC: [8] Undefined variable: albumadd E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 91 行.
+NOTIC: [8] Undefined variable: albumlist E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 92 行.
+NOTIC: [8] Undefined variable: picture E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 96 行.
+NOTIC: [8] Undefined variable: addpic E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 99 行.
+NOTIC: [8] Undefined variable: listpic E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 100 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 103 行.
+NOTIC: [8] Undefined variable: basic E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 106 行.
+NOTIC: [8] Undefined variable: systemone E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 107 行.
+NOTIC: [8] Undefined variable: email E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 108 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 109 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 113 行.
+NOTIC: [8] Undefined variable: addppt E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 116 行.
+NOTIC: [8] Undefined variable: listppt E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2017-09-30T15:36:31+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `lt_tag` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_tag` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_tag`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Undefined variable: index E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 39 行.
+NOTIC: [8] Undefined variable: say E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 44 行.
+NOTIC: [8] Undefined variable: ver E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 46 行.
+NOTIC: [8] Undefined variable: lists E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 49 行.
+NOTIC: [8] Undefined variable: saylist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 52 行.
+NOTIC: [8] Undefined variable: artlist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 53 行.
+NOTIC: [8] Undefined variable: verlist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 54 行.
+NOTIC: [8] Undefined variable: user E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 66 行.
+NOTIC: [8] Undefined variable: useradd E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 69 行.
+NOTIC: [8] Undefined variable: userlist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 70 行.
+NOTIC: [8] Undefined variable: tag E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 73 行.
+NOTIC: [8] Undefined variable: addtag E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 76 行.
+NOTIC: [8] Undefined variable: addlist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 77 行.
+NOTIC: [8] Undefined variable: link E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 80 行.
+NOTIC: [8] Undefined variable: linkadd E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 83 行.
+NOTIC: [8] Undefined variable: linklist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 84 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 88 行.
+NOTIC: [8] Undefined variable: albumadd E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 91 行.
+NOTIC: [8] Undefined variable: albumlist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 92 行.
+NOTIC: [8] Undefined variable: picture E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 96 行.
+NOTIC: [8] Undefined variable: addpic E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 99 行.
+NOTIC: [8] Undefined variable: listpic E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 100 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 103 行.
+NOTIC: [8] Undefined variable: basic E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 106 行.
+NOTIC: [8] Undefined variable: systemone E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 107 行.
+NOTIC: [8] Undefined variable: email E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 108 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 109 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 113 行.
+NOTIC: [8] Undefined variable: addppt E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 116 行.
+NOTIC: [8] Undefined variable: listppt E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 117 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 158 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 166 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 166 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 166 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 176 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 198 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 205 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 214 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 222 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 223 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 224 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 231 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 232 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2017-09-30T15:40:02+08:00 ] 127.0.0.1 /Admin/Article/ArtAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `lt_article` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined index: validate E:\youthBlog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\youthBlog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lt_article` (`a_title`,`pid`,`a_keyword`,`a_img`,`a_remark`,`a_content`,`a_time`,`a_show`,`a_original`,`a_author`,`a_hit`,`a_from`,`a_ip`) VALUES ('给博客添加节日雪花','9','雪花,jq特效','/Upload/Thumb/1506757202.jpg','转眼就是2016年的圣诞和元旦到了，然后剩下的就是春节，节日多了当然气氛就要嗨起来嘛，这里给大家分享一个比较不错的雪花特效，简单、粗暴。需要的可以进来瞧瞧。','<p style=\"white-space: normal;\">二话不说先上效果图:</p><p style=\"white-space: normal; text-align: center;\"><img src=\"/Upload/20170930/1506757194131505.png\" title=\"1451638951632614.png\" alt=\"QQ截图20160101170138.png\"/></p><p style=\"white-space: normal;\">需要的朋友请看下面的说明，对JQ比较了解的朋友可以直接下载。</p><blockquote style=\"white-space: normal;\"><p>下载地址：</p></blockquote><p style=\"white-space: normal;\"><a href=\"http://pan.baidu.com/s/1mgO5nLY\" _src=\"http://pan.baidu.com/s/1mgO5nLY\">http://pan.baidu.com/s/1mgO5nLY</a>（也可以在下载区下载）</p><blockquote style=\"white-space: normal;\"><p>操作方法</p></blockquote><ol class=\" list-paddingleft-2\" style=\"width: 1274.89px; white-space: normal;\"><li><p>把下面代码加入需要显示的文件，因为我是公用底部，所以我添加在底部</p></li></ol><pre class=\"brush:html\">&lt;!--&nbsp;新年雪花效果开始&nbsp;--&gt;
+&lt;style&nbsp;type=&#39;text/css&#39;&gt;
+.snowwrap,.snow-container{position:&nbsp;fixed;&nbsp;top:&nbsp;0;&nbsp;left:&nbsp;0;&nbsp;width:&nbsp;100%;&nbsp;height:&nbsp;100%;&nbsp;pointer-events:&nbsp;none;&nbsp;z-index:&nbsp;100001;}
+&lt;/style&gt;
+&lt;div&nbsp;class=&quot;snowwrap&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;div&nbsp;class=&quot;snow-container&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--&nbsp;新年雪花效果结束&nbsp;--&gt;</pre><p style=\"white-space: normal;\">2.引入核心JQ文件</p><pre class=\"brush:html\">&lt;!--&nbsp;雪花效果JS&nbsp;--&gt;
+&lt;script&nbsp;src=&#39;__JS__/snow.js&#39;&gt;&lt;/script&gt;</pre><p style=\"white-space: normal;\">然后就可以看到效果了。具体请参考本博客现在的效果。<br/></p><blockquote style=\"white-space: normal;\"><p>注意事项<br/></p></blockquote><ol class=\" list-paddingleft-2\" style=\"width: 1274.89px; white-space: normal;\"><li><p>snow.js的2958行需要指定雪花图片的地址</p></li><li><p>需要在snow.js前面引入JQ文件</p></li></ol><p style=\"white-space: normal;\">应该没什么了，如果遇到问题可以留言和我说下。另外新版博客剩下后台的部分代码修改，预计春节发布2.0版本。</p><p style=\"white-space: normal;\">元旦到了2016年的新开始，祝大家新的一天学业有成，心想事成。</p><p><br/></p>','1506756991','1','1','许勇','5','Win 7','127.0.0.1') [ RunTime:0.0053s ]
+
+[ 2017-09-30T15:40:05+08:00 ] 127.0.0.1 /Admin/Article/ArtList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `lt_article` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_article` ORDER BY a_id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: index E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 39 行.
+NOTIC: [8] Undefined variable: add E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 41 行.
+NOTIC: [8] Undefined variable: say E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 44 行.
+NOTIC: [8] Undefined variable: art E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 45 行.
+NOTIC: [8] Undefined variable: ver E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 46 行.
+NOTIC: [8] Undefined variable: saylist E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 52 行.
+NOTIC: [8] Undefined variable: verlist E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 54 行.
+NOTIC: [8] Undefined variable: user E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 66 行.
+NOTIC: [8] Undefined variable: useradd E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 69 行.
+NOTIC: [8] Undefined variable: userlist E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 70 行.
+NOTIC: [8] Undefined variable: tag E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 73 行.
+NOTIC: [8] Undefined variable: addtag E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 76 行.
+NOTIC: [8] Undefined variable: addlist E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 77 行.
+NOTIC: [8] Undefined variable: link E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 80 行.
+NOTIC: [8] Undefined variable: linkadd E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 83 行.
+NOTIC: [8] Undefined variable: linklist E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 84 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 88 行.
+NOTIC: [8] Undefined variable: albumadd E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 91 行.
+NOTIC: [8] Undefined variable: albumlist E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 92 行.
+NOTIC: [8] Undefined variable: picture E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 96 行.
+NOTIC: [8] Undefined variable: addpic E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 99 行.
+NOTIC: [8] Undefined variable: listpic E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 100 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 103 行.
+NOTIC: [8] Undefined variable: basic E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 106 行.
+NOTIC: [8] Undefined variable: systemone E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 107 行.
+NOTIC: [8] Undefined variable: email E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 108 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 109 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 113 行.
+NOTIC: [8] Undefined variable: addppt E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 116 行.
+NOTIC: [8] Undefined variable: listppt E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2017-09-30T15:40:20+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `lt_tag` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_tag` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_tag`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Undefined variable: index E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 39 行.
+NOTIC: [8] Undefined variable: say E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 44 行.
+NOTIC: [8] Undefined variable: ver E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 46 行.
+NOTIC: [8] Undefined variable: lists E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 49 行.
+NOTIC: [8] Undefined variable: saylist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 52 行.
+NOTIC: [8] Undefined variable: artlist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 53 行.
+NOTIC: [8] Undefined variable: verlist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 54 行.
+NOTIC: [8] Undefined variable: user E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 66 行.
+NOTIC: [8] Undefined variable: useradd E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 69 行.
+NOTIC: [8] Undefined variable: userlist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 70 行.
+NOTIC: [8] Undefined variable: tag E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 73 行.
+NOTIC: [8] Undefined variable: addtag E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 76 行.
+NOTIC: [8] Undefined variable: addlist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 77 行.
+NOTIC: [8] Undefined variable: link E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 80 行.
+NOTIC: [8] Undefined variable: linkadd E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 83 行.
+NOTIC: [8] Undefined variable: linklist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 84 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 88 行.
+NOTIC: [8] Undefined variable: albumadd E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 91 行.
+NOTIC: [8] Undefined variable: albumlist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 92 行.
+NOTIC: [8] Undefined variable: picture E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 96 行.
+NOTIC: [8] Undefined variable: addpic E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 99 行.
+NOTIC: [8] Undefined variable: listpic E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 100 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 103 行.
+NOTIC: [8] Undefined variable: basic E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 106 行.
+NOTIC: [8] Undefined variable: systemone E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 107 行.
+NOTIC: [8] Undefined variable: email E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 108 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 109 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 113 行.
+NOTIC: [8] Undefined variable: addppt E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 116 行.
+NOTIC: [8] Undefined variable: listppt E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 117 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 158 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 166 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 166 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 166 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 176 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 198 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 205 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 214 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 222 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 223 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 224 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 231 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 232 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2017-09-30T15:41:22+08:00 ] 127.0.0.1 /Admin/Article/ArtAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `lt_article` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined index: validate E:\youthBlog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\youthBlog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lt_article` (`a_title`,`pid`,`a_keyword`,`a_img`,`a_remark`,`a_content`,`a_time`,`a_show`,`a_original`,`a_author`,`a_hit`,`a_from`,`a_ip`) VALUES ('2015年年度网络流行语，你肯定都说过~','9','网络流行词,2015流行语','/Upload/Thumb/1506757282.jpg','每年的年度流行语都体现了网友“城会玩”的一面，更重要的是网络流行语也给了大家一种新的吐槽方式。转眼之间2015年已经接近尾声了，那么今年
+的十大流行语到底是哪些呢？','<p style=\"white-space: normal;\">每年的年度流行语都体现了网友“城会玩”的一面，更重要的是网络流行语也给了大家一种新的吐槽方式。转眼之间2015年已经接近尾声了，那么今年的十大流行语到底是哪些呢？<br/></p><blockquote style=\"white-space: normal;\"><p>上交给国家</p></blockquote><p style=\"white-space: normal; text-align: center;\"><img src=\"/Upload/20170930/1506757252329322.jpg\" title=\"1450244360958620.jpg\" alt=\"1.jpg\"/></p><p style=\"white-space: normal;\">“上交给国家”出自于《盗墓笔记》电视剧版中男主角吴邪的台词。原本应该是“盗墓”主角的吴邪，却口口声声要将所有看到的文物“上交国家”。</p><p style=\"white-space: normal; text-align: center;\"><img src=\"/Upload/20170930/1506757252302040.jpg\" title=\"1450244387184474.jpg\" alt=\"2.jpg\"/></p><p style=\"white-space: normal;\">于是从开篇的牛头到随后出现的藏宝图，都逃脱不了“上交国家”的命运，由于这句话有悖于南派三叔原著中的情节和盗墓精神，</p><p style=\"white-space: normal; text-align: center;\"><img src=\"/Upload/20170930/1506757252565997.jpg\" title=\"1450244421291364.jpg\" alt=\"3.jpg\"/></p><p style=\"white-space: normal;\"><br/></p><p style=\"white-space: normal;\">所以引发原著粉和看剧党的大规模的吐槽，此句也由此流行起来啦~</p><blockquote style=\"white-space: normal;\"><p>我的内心几乎是崩溃的</p></blockquote><p style=\"white-space: normal; text-align: center;\"><img src=\"/Upload/20170930/1506757252361036.jpg\" title=\"1450244486324047.jpg\" alt=\"4.jpg\"/></p><p style=\"white-space: normal;\"><br/></p><p style=\"white-space: normal;\">2014年12月前后，90后漫画作者陈安妮以真实经历创作的《对不起，我只过1%生活》的漫画在网络上走红。后来支付宝用此来嘲讽WP用户选择百分之一的生活，结果遭WP用户反击“支付婊”。</p><p style=\"white-space: normal; text-align: center;\"><img src=\"/Upload/20170930/1506757252403336.jpg\" title=\"1450244521831363.jpg\" alt=\"5.jpg\"/></p><p style=\"white-space: normal;\">吓得支付宝马上发招聘信息招WP工程师了......</p><blockquote style=\"white-space: normal;\"><p>吓死宝宝了</p></blockquote><p style=\"white-space: normal; text-align: center;\"><img src=\"/Upload/20170930/1506757252141961.jpg\" title=\"1450244561814536.jpg\" alt=\"6.jpg\"/></p><p style=\"white-space: normal;\">有人说是奔跑吧兄弟中王宝强说的吓死宝宝了……</p><p style=\"white-space: normal;\">也有人说是一位叫“宝宝”的LOL女主播先说出来的，她在主持中，现场抽奖，让画面随机选人头像，突然有一个很黑很肥的胖子出现在画面，然后她就说了句：“吓死宝宝了”之后这句话就被很多人用了！</p><p style=\"white-space: normal; text-align: center;\"><img src=\"/Upload/20170930/1506757252120734.jpg\" title=\"1450244587929410.jpg\" alt=\"7.jpg\"/></p><p style=\"white-space: normal;\">还有人说这句话本身是网上本就很流行的一句“吓死爹了”，是后来被网友改编成“吓死宝宝了”</p><blockquote style=\"white-space: normal;\"><p>狗带“godie”<br/></p></blockquote><p style=\"white-space: normal; text-align: center;\"><img src=\"/Upload/20170930/1506757252223033.jpg\" title=\"1450244665902921.jpg\" alt=\"8.jpg\"/></p><p style=\"white-space: normal;\">“狗带”是“go die”的谐音，源自中国艺人黄子韬在一次演唱会上表演的灵魂Rap。<br/></p><p style=\"white-space: normal;\">被《暴走大事件》挖出后让广大网友玩坏~</p><blockquote style=\"white-space: normal;\"><p>你们城里人真会玩<br/></p></blockquote><p style=\"white-space: normal; text-align: center;\"><img src=\"/Upload/20170930/1506757252818851.jpg\" title=\"1450244693928574.jpg\" alt=\"9.jpg\"/></p><p style=\"white-space: normal;\">&nbsp;<br/></p><p style=\"white-space: normal;\">早些时候，前EXO成员吴亦凡在上海某所大学拍摄电影，结果有人假扮吴亦凡让那些狗仔以为是吴亦凡本人，并且狗仔把照片上传到微博上，然后才发现并不是吴亦凡本人，之后就出来了这句你们城里人真会玩。</p><blockquote style=\"white-space: normal;\"><p>然并卵</p></blockquote><p style=\"white-space: normal; text-align: center;\"><img src=\"/Upload/20170930/1506757252587771.jpg\" title=\"1450244721672642.jpg\" alt=\"10.jpg\"/>&nbsp;</p><p style=\"white-space: normal;\">这个词最早来自于某地方言，</p><p style=\"white-space: normal; text-align: center;\"><img src=\"/Upload/20170930/1506757252603864.jpg\" title=\"1450244740586945.jpg\" alt=\"11.jpg\"/></p><p style=\"white-space: normal;\">之后被《暴走大事件》里的张全蛋采用，凭借一个《质检leader张全蛋怒揭电视机行业内幕》让这个词迅速走红。</p><blockquote style=\"white-space: normal;\"><p>我单方面宣布</p></blockquote><p style=\"white-space: normal; text-align: center;\"><img src=\"/Upload/20170930/1506757252839593.jpg\" title=\"1450244767183222.jpg\" alt=\"12.jpg\"/></p><p style=\"white-space: normal;\">一名女孩在观看NBA球赛时发现梅西就坐在起身后，她掩饰不住自己的兴奋，鼓起勇气要求与梅西合影，梅西答应了她的要求。之后女孩在自己的推特上宣布她将在2015年6月单方面与梅西结婚。之后也是没有逃脱广大网友的跟风恶搞，<br/></p><p style=\"white-space: normal;\">由此成为了网络流行用语......</p><blockquote style=\"white-space: normal;\"><p>重要的事情说三遍<br/></p></blockquote><p style=\"white-space: normal; text-align: center;\"><img src=\"/Upload/20170930/1506757252122335.jpg\" title=\"1450244787146843.jpg\" alt=\"13.jpg\"/></p><p style=\"white-space: normal;\">出自动漫《潜行吧，奈亚子》用法：记得说三遍，说三遍，说三遍就好了，会有神奇的效果发生。其实我觉得这应该是出自骆宾王的《咏鹅》，“鹅，鹅，鹅”重要的事说三遍！！！<br/></p><blockquote style=\"white-space: normal;\"><p>世界那么大<br/></p></blockquote><p style=\"white-space: normal; text-align: center;\"><img src=\"/Upload/20170930/1506757252128695.jpg\" title=\"1450244810276411.jpg\" alt=\"14.jpg\"/></p><p style=\"white-space: normal;\">“世界那么大，我想去看看”来源于郑州实验中学一位老师的最具情怀的辞职信，<br/></p><p style=\"white-space: normal;\">不久后该老师微博声称自己决定裸婚，过上幸福的生活~</p><blockquote style=\"white-space: normal;\"><p>哔了狗了<br/></p></blockquote><p style=\"white-space: normal; text-align: center;\"><img src=\"/Upload/20170930/1506757252122317.jpg\" title=\"1450244835756835.jpg\" alt=\"15.jpg\"/></p><p style=\"white-space: normal;\">《暴走大事件》张全蛋在吐槽进口马桶圈时说的一句话。本来是一句R了狗了，由于说成R了狗了也会被后期哔音和谐。<br/></p><p style=\"white-space: normal;\">所以他就干脆说成了哔了狗了~</p><p style=\"white-space: normal; text-align: center;\"><img src=\"/Upload/20170930/1506757252123199.jpg\" title=\"1450244856399730.jpg\" alt=\"16.jpg\"/></p><p style=\"white-space: normal;\">以上就是2015年年度流行语啦，作为一名新潮的暴走小伙伴你是不是早就有听过啦？最后感谢一下度娘提供的帮助哦~按照每年的惯例，这些网络流行语我们就等着春晚见吧~</p><p><br/></p>','1506757220','1','0','许勇','5','Win 7','127.0.0.1') [ RunTime:0.0020s ]
+
+[ 2017-09-30T15:41:25+08:00 ] 127.0.0.1 /Admin/Article/ArtList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `lt_article` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_article` ORDER BY a_id desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined variable: index E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 39 行.
+NOTIC: [8] Undefined variable: add E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 41 行.
+NOTIC: [8] Undefined variable: say E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 44 行.
+NOTIC: [8] Undefined variable: art E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 45 行.
+NOTIC: [8] Undefined variable: ver E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 46 行.
+NOTIC: [8] Undefined variable: saylist E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 52 行.
+NOTIC: [8] Undefined variable: verlist E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 54 行.
+NOTIC: [8] Undefined variable: user E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 66 行.
+NOTIC: [8] Undefined variable: useradd E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 69 行.
+NOTIC: [8] Undefined variable: userlist E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 70 行.
+NOTIC: [8] Undefined variable: tag E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 73 行.
+NOTIC: [8] Undefined variable: addtag E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 76 行.
+NOTIC: [8] Undefined variable: addlist E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 77 行.
+NOTIC: [8] Undefined variable: link E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 80 行.
+NOTIC: [8] Undefined variable: linkadd E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 83 行.
+NOTIC: [8] Undefined variable: linklist E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 84 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 88 行.
+NOTIC: [8] Undefined variable: albumadd E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 91 行.
+NOTIC: [8] Undefined variable: albumlist E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 92 行.
+NOTIC: [8] Undefined variable: picture E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 96 行.
+NOTIC: [8] Undefined variable: addpic E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 99 行.
+NOTIC: [8] Undefined variable: listpic E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 100 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 103 行.
+NOTIC: [8] Undefined variable: basic E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 106 行.
+NOTIC: [8] Undefined variable: systemone E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 107 行.
+NOTIC: [8] Undefined variable: email E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 108 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 109 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 113 行.
+NOTIC: [8] Undefined variable: addppt E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 116 行.
+NOTIC: [8] Undefined variable: listppt E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2017-09-30T15:41:50+08:00 ] 127.0.0.1 /index.php/Admin/Say/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] Undefined variable: index E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 39 行.
+NOTIC: [8] Undefined variable: art E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 45 行.
+NOTIC: [8] Undefined variable: ver E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 46 行.
+NOTIC: [8] Undefined variable: lists E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 49 行.
+NOTIC: [8] Undefined variable: saylist E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 52 行.
+NOTIC: [8] Undefined variable: artlist E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 53 行.
+NOTIC: [8] Undefined variable: verlist E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 54 行.
+NOTIC: [8] Undefined variable: user E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 66 行.
+NOTIC: [8] Undefined variable: useradd E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 69 行.
+NOTIC: [8] Undefined variable: userlist E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 70 行.
+NOTIC: [8] Undefined variable: tag E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 73 行.
+NOTIC: [8] Undefined variable: addtag E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 76 行.
+NOTIC: [8] Undefined variable: addlist E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 77 行.
+NOTIC: [8] Undefined variable: link E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 80 行.
+NOTIC: [8] Undefined variable: linkadd E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 83 行.
+NOTIC: [8] Undefined variable: linklist E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 84 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 88 行.
+NOTIC: [8] Undefined variable: albumadd E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 91 行.
+NOTIC: [8] Undefined variable: albumlist E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 92 行.
+NOTIC: [8] Undefined variable: picture E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 96 行.
+NOTIC: [8] Undefined variable: addpic E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 99 行.
+NOTIC: [8] Undefined variable: listpic E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 100 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 103 行.
+NOTIC: [8] Undefined variable: basic E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 106 行.
+NOTIC: [8] Undefined variable: systemone E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 107 行.
+NOTIC: [8] Undefined variable: email E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 108 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 109 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 113 行.
+NOTIC: [8] Undefined variable: addppt E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 116 行.
+NOTIC: [8] Undefined variable: listppt E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 117 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 157 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 172 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\05a01afcad5c3e3c5a3380d0bab244a4.php 第 173 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2017-09-30T15:41:54+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `lt_tag` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_tag` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_tag`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Undefined variable: index E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 39 行.
+NOTIC: [8] Undefined variable: say E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 44 行.
+NOTIC: [8] Undefined variable: ver E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 46 行.
+NOTIC: [8] Undefined variable: lists E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 49 行.
+NOTIC: [8] Undefined variable: saylist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 52 行.
+NOTIC: [8] Undefined variable: artlist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 53 行.
+NOTIC: [8] Undefined variable: verlist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 54 行.
+NOTIC: [8] Undefined variable: user E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 66 行.
+NOTIC: [8] Undefined variable: useradd E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 69 行.
+NOTIC: [8] Undefined variable: userlist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 70 行.
+NOTIC: [8] Undefined variable: tag E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 73 行.
+NOTIC: [8] Undefined variable: addtag E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 76 行.
+NOTIC: [8] Undefined variable: addlist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 77 行.
+NOTIC: [8] Undefined variable: link E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 80 行.
+NOTIC: [8] Undefined variable: linkadd E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 83 行.
+NOTIC: [8] Undefined variable: linklist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 84 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 88 行.
+NOTIC: [8] Undefined variable: albumadd E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 91 行.
+NOTIC: [8] Undefined variable: albumlist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 92 行.
+NOTIC: [8] Undefined variable: picture E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 96 行.
+NOTIC: [8] Undefined variable: addpic E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 99 行.
+NOTIC: [8] Undefined variable: listpic E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 100 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 103 行.
+NOTIC: [8] Undefined variable: basic E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 106 行.
+NOTIC: [8] Undefined variable: systemone E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 107 行.
+NOTIC: [8] Undefined variable: email E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 108 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 109 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 113 行.
+NOTIC: [8] Undefined variable: addppt E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 116 行.
+NOTIC: [8] Undefined variable: listppt E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 117 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 158 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 166 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 166 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 166 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 176 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 198 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 205 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 214 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 222 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 223 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 224 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 231 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 232 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2017-09-30T15:41:55+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `lt_tag` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_tag` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_tag`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined variable: index E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 39 行.
+NOTIC: [8] Undefined variable: say E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 44 行.
+NOTIC: [8] Undefined variable: ver E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 46 行.
+NOTIC: [8] Undefined variable: lists E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 49 行.
+NOTIC: [8] Undefined variable: saylist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 52 行.
+NOTIC: [8] Undefined variable: artlist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 53 行.
+NOTIC: [8] Undefined variable: verlist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 54 行.
+NOTIC: [8] Undefined variable: user E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 66 行.
+NOTIC: [8] Undefined variable: useradd E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 69 行.
+NOTIC: [8] Undefined variable: userlist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 70 行.
+NOTIC: [8] Undefined variable: tag E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 73 行.
+NOTIC: [8] Undefined variable: addtag E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 76 行.
+NOTIC: [8] Undefined variable: addlist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 77 行.
+NOTIC: [8] Undefined variable: link E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 80 行.
+NOTIC: [8] Undefined variable: linkadd E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 83 行.
+NOTIC: [8] Undefined variable: linklist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 84 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 88 行.
+NOTIC: [8] Undefined variable: albumadd E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 91 行.
+NOTIC: [8] Undefined variable: albumlist E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 92 行.
+NOTIC: [8] Undefined variable: picture E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 96 行.
+NOTIC: [8] Undefined variable: addpic E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 99 行.
+NOTIC: [8] Undefined variable: listpic E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 100 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 103 行.
+NOTIC: [8] Undefined variable: basic E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 106 行.
+NOTIC: [8] Undefined variable: systemone E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 107 行.
+NOTIC: [8] Undefined variable: email E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 108 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 109 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 113 行.
+NOTIC: [8] Undefined variable: addppt E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 116 行.
+NOTIC: [8] Undefined variable: listppt E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 117 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 158 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 166 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 166 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 166 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 176 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 198 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 205 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 214 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 222 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 223 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 224 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 231 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\b0152606be0b6f8f72ab2288300c133b.php 第 232 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2017-09-30T15:42:46+08:00 ] 127.0.0.1 /Admin/Article/ArtAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `lt_article` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: validate E:\youthBlog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\youthBlog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `lt_article` (`a_title`,`pid`,`a_keyword`,`a_img`,`a_remark`,`a_content`,`a_time`,`a_show`,`a_original`,`a_author`,`a_hit`,`a_from`,`a_ip`) VALUES ('include 和 require 引入的区别','10','include,require,包含文件','/Upload/Thumb/1506757366.jpg','文件的包含中有四个写法：Include / include_once /Require /require_once。其中Include 和require都是把一个页面引入到当前页面.那么怎么来理解&quot;引入&quot;.就相当于把被包含文件的所有代码,替换include/require那一句.和直接把代码写在include那一句是一样的.Require作用也是把一个文件引入到当前文件.理解与include一样.','<p style=\"white-space: normal;\">Include与require的区别<br/></p><p style=\"white-space: normal;\">答:include如果引入的文件不存在,试图继续往下执行,报一个warning</p><p style=\"white-space: normal;\">(如果你不介意之前的内容是否被包含，之后的内容都要执行，就使用include)</p><p style=\"white-space: normal;\">而require如果引入的文件不存在,报fatal error,不再继续执行.</p><p style=\"white-space: normal;\">(如果之前的内容一定要被包含，才允许继续执行之后的代码，就使用require)</p><p style=\"white-space: normal;\"><br/></p><p style=\"white-space: normal;\">========================================================</p><p style=\"white-space: normal;\">Include/require 与 include_once /require_once的区别</p><p style=\"white-space: normal;\">_once 会自动判断文件是否已经引入,如果引入,不再重复执行.</p><p style=\"white-space: normal;\">即:保证被包含文件只可能被引入一次.</p><p style=\"white-space: normal;\">(如果包含的文件里有定义函数，那么被包含的文件只能被包含一次，如果多次包含，就会出现函数重定义的错误，php是不运行函数重定义的，会出现致命错误，之后代码不在运行)</p><p style=\"white-space: normal;\">=======================================================</p><p style=\"white-space: normal;\">有的文件不允许被包含多次?</p><p style=\"white-space: normal;\">可以用_once来控制,</p><p style=\"white-space: normal;\">但是,如果从文件的设计上,比较规范,能保证肯定不会出现多次包含的错误,</p><p style=\"white-space: normal;\">这种情况下 建议用include</p><p style=\"white-space: normal;\">因为include_once要检测之前有没有包含,效率没有include高</p><p style=\"white-space: normal;\">怎么来理解&quot;引入&quot;.</p><p style=\"white-space: normal;\"><br/></p><p style=\"white-space: normal;\">就相当于把被包含文件的所有代码,替换include/require那一句.</p><p style=\"white-space: normal;\">和直接把代码写在include那一句是一样的.</p><p style=\"white-space: normal;\"><br/></p><p style=\"white-space: normal;\">Require作用也是把一个文件引入到当前文件.</p><p style=\"white-space: normal;\">理解与include一样.</p><p style=\"white-space: normal;\"><br/></p><p style=\"white-space: normal;\">Include与require的区别</p><p style=\"white-space: normal;\">答:include如果引入的文件不存在,试图继续往下执行,报一个warning</p><p style=\"white-space: normal;\">(如果你不介意之前的内容是否被包含，之后的内容都要执行，就使用include)</p><p style=\"white-space: normal;\">而require如果引入的文件不存在,报fatal error,不再继续执行.</p><p style=\"white-space: normal;\">(如果之前的内容一定要被包含，才允许继续执行之后的代码，就使用require)</p><p style=\"white-space: normal;\"><br/></p><p style=\"white-space: normal;\">========================================================</p><p style=\"white-space: normal;\">Include/require 与 include_once /require_once的区别</p><p style=\"white-space: normal;\">_once 会自动判断文件是否已经引入,如果引入,不再重复执行.</p><p style=\"white-space: normal;\">即:保证被包含文件只可能被引入一次.</p><p style=\"white-space: normal;\">(如果包含的文件里有定义函数，那么被包含的文件只能被包含一次，如果多次包含，就会出现函数重定义的错误，php是不运行函数重定义的，会出现致命错误，之后代码不在运行)</p><p style=\"white-space: normal;\">=======================================================</p><p style=\"white-space: normal;\">有的文件不允许被包含多次?</p><p style=\"white-space: normal;\">可以用_once来控制,</p><p style=\"white-space: normal;\">但是,如果从文件的设计上,比较规范,能保证肯定不会出现多次包含的错误,</p><p style=\"white-space: normal;\">这种情况下 建议用include</p><p style=\"white-space: normal;\">因为include_once要检测之前有没有包含,效率没有include高</p><p style=\"white-space: normal;\"><br/></p><p style=\"white-space: normal;\">require() 语句包含并运行指定文件，include()语句会获取指定文件中存在的所有文本/代码/标记，并复制到使用 include 语句的文件中。这两个函数有相似的功能，现在我们来讲讲他们包含文件的路径问题。</p><p style=\"white-space: normal;\"><br/></p><blockquote style=\"white-space: normal;\"><p>1 绝对路径、相对路径和未确定路径</p></blockquote><p style=\"white-space: normal;\">相对路径</p><p style=\"white-space: normal;\">相对路径指以.开头的路径，例如</p><p style=\"white-space: normal;\">./a/a.php (相对当前目录)</p><p style=\"white-space: normal;\">../common.inc.php (相对上级目录)，</p><p style=\"white-space: normal;\">绝对路径</p><p style=\"white-space: normal;\">绝对路径是以 / 开头或者windows下的 C:/ 类似的盘符开头的路径，全路径不用任何参考路径就可以唯一确定文件的最终地址。 例如</p><p style=\"white-space: normal;\">/apache/wwwroot/site/a/a.php</p><p style=\"white-space: normal;\">c:/wwwroot/site/a/a.php</p><p style=\"white-space: normal;\">未确定路径</p><p style=\"white-space: normal;\">凡是不以 . 或者 / 开头、也不是windows下 盘符:/ 开头的路径，例如</p><p style=\"white-space: normal;\">a/a.php</p><p style=\"white-space: normal;\">common.inc.php，</p><p style=\"white-space: normal;\">开始以为这也是相对路径，但在php的include/require包含机制中，这种类型的路径跟以 . 开头的相对路径处理是完全不同的。require &#39;./a.php&#39; 和 require &#39;a.php&#39; 是不同的!</p><p style=\"white-space: normal;\">下面分析这三种类型包含路径的处理方式：首先记住一个结论：如果包含路径为相对路径或者绝对径，则不会到include_path(php.ini 中定义的include_path环境变量，或者在程序中使用set_include_path(...)设置)中去查找该文件。</p><p style=\"white-space: normal;\">测试环境说明</p><p style=\"white-space: normal;\">注意：下面的讨论和结论基于这样的环境： 假设 A=http://www.xxx.com/app/test/a.php，再次强调下面的讨论是针对直接访问A的情况。</p><p style=\"white-space: normal;\"><br/></p><blockquote style=\"white-space: normal;\"><p>2. 相对路径：</p></blockquote><p style=\"white-space: normal;\">相对路径需要一个参考目录才能确定文件的最终路径，在包含解析中，不管包含嵌套多少层，这个参考目录是程序执行入口文件所在目录。</p><p style=\"white-space: normal;\">示例1</p><p style=\"white-space: normal;\">A中定义 require &#39;./b/b.php&#39;; // 则B=[SITE]/app/test/b/b.php</p><p style=\"white-space: normal;\">B中定义 require &#39;./c.php&#39;; // 则C=[SITE]/app/test/c.php 不是[SITE]/app/test/b/c.php</p><p style=\"white-space: normal;\"><br/></p><p style=\"white-space: normal;\">示例2</p><p style=\"white-space: normal;\">A中定义 require &#39;./b/b.php&#39;; // 则B=[SITE]/app/test/b/b.php</p><p style=\"white-space: normal;\">B中定义 require &#39;../c.php&#39;; // 则C=[SITE]/app/c.php 不是 [SITE]/app/test/c.php</p><p style=\"white-space: normal;\"><br/></p><p style=\"white-space: normal;\">示例3</p><p style=\"white-space: normal;\">A中定义 require &#39;../b.php&#39;; //则B=[SITE]/app/b.php</p><p style=\"white-space: normal;\">B中定义 require &#39;../c.php&#39;; //则C=[SITE]/app/c.php 不是 [SITE]/c.php</p><p style=\"white-space: normal;\"><br/></p><p style=\"white-space: normal;\">示例4:</p><p style=\"white-space: normal;\">A中定义 require &#39;../b.php&#39;; // 则B=[SITE]/app/b.php</p><p style=\"white-space: normal;\">B中定义 require &#39;./c/c.php&#39;; / /则C=[SITE]/app/test/c/c.php 不是 [SITE]/app/c/c.php</p><p style=\"white-space: normal;\"><br/></p><p style=\"white-space: normal;\">示例5</p><p style=\"white-space: normal;\">A中定义 require &#39;../inc/b.php&#39;; // 则B=[SITE]/app/inc/b.php</p><p style=\"white-space: normal;\">B中定义 require &#39;./c/c.php&#39;; // 则C还是=[SITE]/app/test/c/c.php 不是 [SITE]/app/inc/c/c.php</p><p style=\"white-space: normal;\"><br/></p><p style=\"white-space: normal;\">示例6</p><p style=\"white-space: normal;\">A中定义 require &#39;../inc/b.php&#39;; // 则B=[SITE]/app/inc/b.php</p><p style=\"white-space: normal;\">B中定义 require &#39;./c.php&#39;; // 则C=[SITE]/app/test/c.php 不是 [SITE]/app/inc/c.php</p><p style=\"white-space: normal;\"><br/></p><blockquote style=\"white-space: normal;\"><p>3. 绝对路径</p></blockquote><p style=\"white-space: normal;\"><br/></p><p style=\"white-space: normal;\">绝对路径的比较简单，不容易混淆出错，require|inclue 的就是对应磁盘中的文件。</p><p style=\"white-space: normal;\">require &#39;/wwwroot/xxx.com/app/test/b.php&#39;; // Linux中</p><p style=\"white-space: normal;\">require &#39;c:/wwwroot/xxx.com/app/test/b.php&#39;; // windows中</p><p style=\"white-space: normal;\">dirname(__FILE__)计算出来的也是一个绝对路径形式的目录，但是要注意__FILE__是一个Magic constants，不管在什么时候都等于写这条语句的php文件所在的绝对路径，因此dirname(__FILE__)也总是指向写这条语句的php文件所在的绝对路径，跟这个文件是否被其他文件包含使用没有任何关系。</p><p style=\"white-space: normal;\"><br/></p><p style=\"white-space: normal;\">示例1</p><p style=\"white-space: normal;\">A中定义 require &#39;../b.php&#39;; // 则B=[SITE]/app/b.php</p><p style=\"white-space: normal;\">B中定义 require dirname(__FILE__).&#39;/c.php&#39;; // 则B=[SITE]/app/c.php</p><p style=\"white-space: normal;\"><br/></p><p style=\"white-space: normal;\">示例2</p><p style=\"white-space: normal;\">A中定义 require &#39;../inc/b.php&#39;; // 则B=[SITE]/app/inc/b.php</p><p style=\"white-space: normal;\">B中定义 require dirname(__FILE__).&#39;/c.php&#39;; // 则B=[SITE]/app/inc/c.php 始终跟B在同一个目录</p><p style=\"white-space: normal;\"><br/></p><p style=\"white-space: normal;\">结论：不管B是被A包含使用，还是直接被访问</p><p style=\"white-space: normal;\">B如果 require dirname(__FILE__).&#39;/c.php&#39;; // 则始终引用到跟B在同一个目录中的 c.php文件;</p><p style=\"white-space: normal;\">B如果 require dirname(__FILE__).&#39;/../c.php&#39;; // 则始终引用到B文件所在目录的父目录中的 c.php文件;</p><p style=\"white-space: normal;\">B如果 require dirname(__FILE__).&#39;/c/c.php&#39;; // 则始终引用到B文件所在目录的c子目录中的 c.php文件;</p><p style=\"white-space: normal;\"><br/></p><blockquote style=\"white-space: normal;\"><p>4. 未确定路径</p></blockquote><p style=\"white-space: normal;\"><br/></p><p style=\"white-space: normal;\">首先在逐一用include_path中定义的包含目录来拼接[未确定路径]，找到存在的文件则包含成功退出，如果没有找到，则用执行 require语句的php文件所在目录来拼接[未确定路径]组成的全路径去查找该文件，如果文件存在则包含成功退出，否则表示包含文件不存在，出错。 未确定路径比较容易搞混不建议使用。</p><p style=\"white-space: normal;\"><br/></p><blockquote style=\"white-space: normal;\"><p>5. 解决方案</p></blockquote><p style=\"white-space: normal;\"><br/></p><p style=\"white-space: normal;\">由于“相对路径”中的“参照目录”是执行入口文件所在目录，“未确定”路径也比较容易混淆，因此最好的解决方法是使用“绝对路径”; 例如b.php的内容如下，无论在哪里require b.php都是以b.php的路径为参照来require c.php的</p><p style=\"white-space: normal;\"><br/></p><p style=\"white-space: normal;\">$dir = dirname(__FILE__);</p><p style=\"white-space: normal;\">require($dir . &#39;../c.php&#39;);</p><p style=\"white-space: normal;\"><br/></p><p style=\"white-space: normal;\">或者定义一个通用函数 import.php，将其设置为“自动提前引入文件”，在php.ini做如下配置</p><p style=\"white-space: normal;\">更改配置项(必须)auto_prepend_file = &quot;C:xampphtdocsauto_prepend_file.php&quot;</p><p style=\"white-space: normal;\">更改配置项(可选)allow_url_include = On</p><p style=\"white-space: normal;\">import.php内容如下</p><pre class=\"brush:php\">function&nbsp;import($path)&nbsp;{
+$old_dir&nbsp;=&nbsp;getcwd();&nbsp;//&nbsp;保存原“参照目录”
+chdir(dirname(__FILE__));&nbsp;//&nbsp;将“参照目录”更改为当前脚本的绝对路径
+require_once($path);
+chdir($old_dir);&nbsp;//&nbsp;改回原“参照目录”
+}</pre><p style=\"white-space: normal;\">这样就可以使用import()函数来require文件了，无论包含多少级“参照目录”都是当前文件</p><p><br/></p>','1506757315','1','0','许勇','5','Win 7','127.0.0.1') [ RunTime:0.0121s ]
+
+[ 2017-09-30T15:42:49+08:00 ] 127.0.0.1 /Admin/Article/ArtList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `lt_article` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lt_article` ORDER BY a_id desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined variable: index E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 39 行.
+NOTIC: [8] Undefined variable: add E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 41 行.
+NOTIC: [8] Undefined variable: say E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 44 行.
+NOTIC: [8] Undefined variable: art E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 45 行.
+NOTIC: [8] Undefined variable: ver E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 46 行.
+NOTIC: [8] Undefined variable: saylist E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 52 行.
+NOTIC: [8] Undefined variable: verlist E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 54 行.
+NOTIC: [8] Undefined variable: user E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 66 行.
+NOTIC: [8] Undefined variable: useradd E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 69 行.
+NOTIC: [8] Undefined variable: userlist E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 70 行.
+NOTIC: [8] Undefined variable: tag E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 73 行.
+NOTIC: [8] Undefined variable: addtag E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 76 行.
+NOTIC: [8] Undefined variable: addlist E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 77 行.
+NOTIC: [8] Undefined variable: link E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 80 行.
+NOTIC: [8] Undefined variable: linkadd E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 83 行.
+NOTIC: [8] Undefined variable: linklist E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 84 行.
+NOTIC: [8] Undefined variable: album E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 88 行.
+NOTIC: [8] Undefined variable: albumadd E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 91 行.
+NOTIC: [8] Undefined variable: albumlist E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 92 行.
+NOTIC: [8] Undefined variable: picture E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 96 行.
+NOTIC: [8] Undefined variable: addpic E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 99 行.
+NOTIC: [8] Undefined variable: listpic E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 100 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 103 行.
+NOTIC: [8] Undefined variable: basic E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 106 行.
+NOTIC: [8] Undefined variable: systemone E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 107 行.
+NOTIC: [8] Undefined variable: email E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 108 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 109 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 113 行.
+NOTIC: [8] Undefined variable: addppt E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 116 行.
+NOTIC: [8] Undefined variable: listppt E:\youthBlog\Runtime\Cache\Admin\c040d1029f81aad6bfa7dff373f5a11b.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2017-09-30T16:12:59+08:00 ] 127.0.0.1 /index.php/Admin/Album/albumList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `lt_album` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_album` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_album` ORDER BY al_id desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined variable: index E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 39 行.
+NOTIC: [8] Undefined variable: add E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 41 行.
+NOTIC: [8] Undefined variable: say E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 44 行.
+NOTIC: [8] Undefined variable: art E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 45 行.
+NOTIC: [8] Undefined variable: ver E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 46 行.
+NOTIC: [8] Undefined variable: lists E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 49 行.
+NOTIC: [8] Undefined variable: saylist E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 52 行.
+NOTIC: [8] Undefined variable: artlist E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 53 行.
+NOTIC: [8] Undefined variable: verlist E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 54 行.
+NOTIC: [8] Undefined variable: user E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 66 行.
+NOTIC: [8] Undefined variable: useradd E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 69 行.
+NOTIC: [8] Undefined variable: userlist E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 70 行.
+NOTIC: [8] Undefined variable: tag E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 73 行.
+NOTIC: [8] Undefined variable: addtag E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 76 行.
+NOTIC: [8] Undefined variable: addlist E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 77 行.
+NOTIC: [8] Undefined variable: link E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 80 行.
+NOTIC: [8] Undefined variable: linkadd E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 83 行.
+NOTIC: [8] Undefined variable: linklist E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 84 行.
+NOTIC: [8] Undefined variable: albumadd E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 91 行.
+NOTIC: [8] Undefined variable: picture E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 96 行.
+NOTIC: [8] Undefined variable: addpic E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 99 行.
+NOTIC: [8] Undefined variable: listpic E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 100 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 103 行.
+NOTIC: [8] Undefined variable: basic E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 106 行.
+NOTIC: [8] Undefined variable: systemone E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 107 行.
+NOTIC: [8] Undefined variable: email E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 108 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 109 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 113 行.
+NOTIC: [8] Undefined variable: addppt E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 116 行.
+NOTIC: [8] Undefined variable: listppt E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2017-09-30T16:13:00+08:00 ] 127.0.0.1 /index.php/Admin/Album/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined variable: index E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 39 行.
+NOTIC: [8] Undefined variable: add E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 41 行.
+NOTIC: [8] Undefined variable: say E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 44 行.
+NOTIC: [8] Undefined variable: art E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 45 行.
+NOTIC: [8] Undefined variable: ver E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 46 行.
+NOTIC: [8] Undefined variable: lists E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 49 行.
+NOTIC: [8] Undefined variable: saylist E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 52 行.
+NOTIC: [8] Undefined variable: artlist E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 53 行.
+NOTIC: [8] Undefined variable: verlist E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 54 行.
+NOTIC: [8] Undefined variable: user E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 66 行.
+NOTIC: [8] Undefined variable: useradd E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 69 行.
+NOTIC: [8] Undefined variable: userlist E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 70 行.
+NOTIC: [8] Undefined variable: tag E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 73 行.
+NOTIC: [8] Undefined variable: addtag E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 76 行.
+NOTIC: [8] Undefined variable: addlist E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 77 行.
+NOTIC: [8] Undefined variable: link E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 80 行.
+NOTIC: [8] Undefined variable: linkadd E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 83 行.
+NOTIC: [8] Undefined variable: linklist E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 84 行.
+NOTIC: [8] Undefined variable: albumlist E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 92 行.
+NOTIC: [8] Undefined variable: picture E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 96 行.
+NOTIC: [8] Undefined variable: addpic E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 99 行.
+NOTIC: [8] Undefined variable: listpic E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 100 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 103 行.
+NOTIC: [8] Undefined variable: basic E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 106 行.
+NOTIC: [8] Undefined variable: systemone E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 107 行.
+NOTIC: [8] Undefined variable: email E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 108 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 109 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 113 行.
+NOTIC: [8] Undefined variable: addppt E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 116 行.
+NOTIC: [8] Undefined variable: listppt E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 117 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 160 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 180 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 238 行.
+NOTIC: [8] Undefined variable: info E:\youthBlog\Runtime\Cache\Admin\3a8432182bbe78e4eed6e17ec22c836a.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2017-09-30T16:13:06+08:00 ] 127.0.0.1 /index.php/Admin/Album/albumList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `lt_album` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_album` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lt_album` ORDER BY al_id desc LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined variable: index E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 39 行.
+NOTIC: [8] Undefined variable: add E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 41 行.
+NOTIC: [8] Undefined variable: say E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 44 行.
+NOTIC: [8] Undefined variable: art E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 45 行.
+NOTIC: [8] Undefined variable: ver E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 46 行.
+NOTIC: [8] Undefined variable: lists E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 49 行.
+NOTIC: [8] Undefined variable: saylist E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 52 行.
+NOTIC: [8] Undefined variable: artlist E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 53 行.
+NOTIC: [8] Undefined variable: verlist E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 54 行.
+NOTIC: [8] Undefined variable: user E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 66 行.
+NOTIC: [8] Undefined variable: useradd E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 69 行.
+NOTIC: [8] Undefined variable: userlist E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 70 行.
+NOTIC: [8] Undefined variable: tag E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 73 行.
+NOTIC: [8] Undefined variable: addtag E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 76 行.
+NOTIC: [8] Undefined variable: addlist E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 77 行.
+NOTIC: [8] Undefined variable: link E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 80 行.
+NOTIC: [8] Undefined variable: linkadd E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 83 行.
+NOTIC: [8] Undefined variable: linklist E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 84 行.
+NOTIC: [8] Undefined variable: albumadd E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 91 行.
+NOTIC: [8] Undefined variable: picture E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 96 行.
+NOTIC: [8] Undefined variable: addpic E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 99 行.
+NOTIC: [8] Undefined variable: listpic E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 100 行.
+NOTIC: [8] Undefined variable: system E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 103 行.
+NOTIC: [8] Undefined variable: basic E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 106 行.
+NOTIC: [8] Undefined variable: systemone E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 107 行.
+NOTIC: [8] Undefined variable: email E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 108 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 109 行.
+NOTIC: [8] Undefined variable: ppts E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 113 行.
+NOTIC: [8] Undefined variable: addppt E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 116 行.
+NOTIC: [8] Undefined variable: listppt E:\youthBlog\Runtime\Cache\Admin\591fffc18fc4537dd5aa9f2a155f8dac.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+

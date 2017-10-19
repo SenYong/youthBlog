@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>首页</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="version" content="" />
+	<meta name="author" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<include file="public:nav"/>
+		<div class="container hidden-xs ppt">
+                <div id="ppt-main" class="nivoSlider">              
+                <volist name="ppt" id="vo">
+                    <a href="" target="_blank"><img src="{$vo.pp_img}" alt=""  title="" /></a>
+                </volist>
+		</div>
+		<div class="row aerousel">
+				<div class="col-md-8 row-l index">
+				<div class="alert alert-success alert-dismissible" role="alert">
+					<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+					&nbsp;&nbsp;{$Think.config.WELCOME}
+				</div>
+			<volist name="article" id="vo" empty="暂时没有文章">	
+				<article>
+					<h5>
+						<eq name="vo.a_original" value="1">
+							<span class="original">【原创】</span>
+						<else />
+							<span class="reprint">【转载】</span>
+						</eq>
+						<a href="{:U('/article-'.$vo['a_id'])}">{$vo.a_title}</a>
+						<img  class="title_r hidden-xs" src="__IMG__/icon/tuijian.gif"/>				
+					</h5>
+					<div class="clearfix" >           
+						<p class="article-remark"> 
+							<a class="article-img-a image-light hidden-xs" href="{:U('/article-'.$vo['a_id'])}"><img src="{$vo.a_img}" class="article-img" alt="" title="" style="width: 260px;height: 170px;"/></a>
+							{$vo.a_remark}
+							<a href="{:U('/article-'.$vo['a_id'])}" class="article-look">继续阅读→</a>
+						</p>
+						<footer class="article-footer"> 
+							<div class="article-footer-l">
+								<span class="glyphicon glyphicon-tags blog-icon"></span>
+							</div>
+							<div class="article-footer-r">
+								<span class="glyphicon glyphicon-fire blog-icon"></span>
+								<a>{$vo.a_hit}</a>&nbsp;
+								<span class="glyphicon glyphicon-comment blog-icon"></span>
+								<a>{$vo.a_num}</a>
+							</div>
+						</footer>
+					</div>
+			     </article>
+		     </volist>
+		</div>	
+	<include file="Public:sider"/>
+	<include file="Public:foot"/>
+<script src="__JS__/jquery-1.10.1.min.js"></script>
+<script src="__JS__/jquery.nivo.slider.pack.js"></script>
+ <script type="text/javascript">
+        $(function() {
+            $('#ppt-main').nivoSlider({
+                //effect: 'random', // 过渡效果  
+			    slices: 15, //effect为切片效果时的数量  
+			    boxCols: 8, //effect为格子效果时的列  
+			    boxRows: 4, //effect为格子效果时的行  
+			    animSpeed: 500, //动画速度  
+			    pauseTime: 3000, //图片切换速度  
+			    startSlide: 0, //从第几张开始  
+			    directionNav: false, //是否显示图片切换按钮(上/下页)  
+			    directionNavHide: true, //是否鼠标经过才显示  
+			    controlNav: false, // 显示序列导航  
+			    controlNavThumbs: false, // 显示图片导航  
+			    //keyboardNav: true, // 键盘控制（左右箭头）PS:建议把代码中的keypress换成keydown,因为在Chrome下
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+<?php
+//000000000010a:5:{i:0;a:4:{s:4:"a_id";s:1:"9";s:9:"a_keyword";s:28:"include,require,包含文件";s:6:"a_show";s:1:"1";s:3:"key";i:1;}i:1;a:4:{s:4:"a_id";s:1:"8";s:9:"a_keyword";s:29:"网络流行词,2015流行语";s:6:"a_show";s:1:"1";s:3:"key";i:2;}i:2;a:4:{s:4:"a_id";s:1:"7";s:9:"a_keyword";s:15:"雪花,jq特效";s:6:"a_show";s:1:"1";s:3:"key";i:3;}i:3;a:4:{s:4:"a_id";s:1:"6";s:9:"a_keyword";s:30:"php是世界上最好的语言";s:6:"a_show";s:1:"1";s:3:"key";i:4;}i:4;a:4:{s:4:"a_id";s:1:"5";s:9:"a_keyword";s:22:"即时交易,支付宝";s:6:"a_show";s:1:"2";s:3:"key";i:5;}}
+?>

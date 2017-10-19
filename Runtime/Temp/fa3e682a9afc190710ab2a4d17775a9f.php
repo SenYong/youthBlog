@@ -1,0 +1,3 @@
+<?php
+//000000000010a:1:{i:0;a:14:{s:5:"sc_id";s:1:"5";s:6:"sc_pid";s:1:"5";s:7:"sc_name";s:12:"所谓不爱";s:8:"sc_email";s:17:"1149250421@qq.com";s:6:"sc_url";s:55:"http://www.bcb5.com/yuanma/php/4076.html/comment-page-1";s:10:"sc_content";s:7:"[mr:/2]";s:5:"sc_ip";s:9:"127.0.0.1";s:6:"sc_img";s:25:"/Public/Img/logo/logo.jpg";s:7:"sc_from";s:5:"Win 7";s:7:"sc_time";s:10:"1507622174";s:8:"sc_rname";N;s:8:"sc_rtime";N;s:11:"sc_rcontent";N;s:2:"ip";s:12:"本机地址";}}
+?>
